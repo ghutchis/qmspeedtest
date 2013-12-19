@@ -59,7 +59,16 @@ Eric Berquist's results
 <th>LUMO</th>
 </tr>
 <tr>
-<td>ORCA (v2.9.1)</td>
+<td>DALTON (2013.0)</td>
+<td>10.25</td>
+<td>19</td>
+<td>0.5</td>
+<td>-644.675706212821</td>
+<td>-0.35364477</td>
+<td>0.07433447</td>
+</tr>
+<tr>
+<td>ORCA (2.9.1)</td>
 <td>13</td>
 <td>13</td>
 <td>1</td>
@@ -68,22 +77,13 @@ Eric Berquist's results
 <td>0.074344</td>
 </tr>
 <tr>
-<td>ORCA (v3.0.1)</td>
+<td>ORCA (3.0.1)</td>
 <td>11</td>
 <td>12</td>
 <td>0.9</td>
 <td>-644.675706036272</td>
 <td>-0.353622</td>
 <td>0.074344</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </table>
 
@@ -99,7 +99,16 @@ Eric Berquist's results
 <th>LUMO</th>
 </tr>
 <tr>
-<td>ORCA (v2.9.1)</td>
+<td>DALTON (2013.0)</td>
+<td>42.17</td>
+<td>20</td>
+<td>2.1</td>
+<td>-648.146520813871</td>
+<td>-0.25714248</td>
+<td>-0.06101431</td>
+</tr>
+<tr>
+<td>ORCA (2.9.1)</td>
 <td>18</td>
 <td>14</td>
 <td>1.3</td>
@@ -108,22 +117,13 @@ Eric Berquist's results
 <td>-0.061014</td>
 </tr>
 <tr>
-<td>ORCA (v3.0.1)</td>
+<td>ORCA (3.0.1)</td>
 <td>14</td>
 <td>13</td>
 <td>1.1</td>
 <td>-648.146451495738</td>
 <td>-0.257065</td>
 <td>-0.061045</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </table>
 
