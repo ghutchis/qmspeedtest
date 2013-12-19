@@ -23,13 +23,6 @@ Baoilleach's results
 <td>-0.353712</td>
 <td>0.074269</td>
 </tr>
-<tr>
-<td>ORCA</td><td>11</td>
-<td>12</td><td>0.9</td>
-<td>-644.675706036272</td>
-<td>-0.353622</td>
-<td>0.074344</td>
-</tr>
 </table>
 
 ### B3LYP
@@ -45,12 +38,92 @@ Baoilleach's results
 <td>-0.260899</td>
 <td>-0.064457</td>
 </tr>
+</table>
+
+Eric Berquist's results
+----------------------
+
+**Machine:** Intel(R) Xeon E5-1620(R) @ 3.60 GHz running 64-bit Ubuntu 13.10
+
+**Fancy compiler or maths libraries used when compiling:** Intel Parallel Studio XE 2013 SP1 (Compiler v14.0.1/MKL v11.1.1)
+
+### HF
+<table>
 <tr>
-<td>ORCA</td><td>14</td>
-<td>13</td><td>1.1</td>
+<th>QM Package</th>
+<th>Time (min)</th>
+<th>Steps</th>
+<th>per step</th>
+<th>Total E</th>
+<th>HOMO</th>
+<th>LUMO</th>
+</tr>
+<tr>
+<td>ORCA (v2.9.1)</td>
+<td>13</td>
+<td>13</td>
+<td>1</td>
+<td>-644.675706036270</td>
+<td>-0.353622</td>
+<td>0.074344</td>
+</tr>
+<tr>
+<td>ORCA (v3.0.1)</td>
+<td>11</td>
+<td>12</td>
+<td>0.9</td>
+<td>-644.675706036272</td>
+<td>-0.353622</td>
+<td>0.074344</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+### B3LYP
+<table>
+<tr>
+<th>QM Package</th>
+<th>Time (min)</th>
+<th>Steps</th>
+<th>per step</th>
+<th>Total E</th>
+<th>HOMO</th>
+<th>LUMO</th>
+</tr>
+<tr>
+<td>ORCA (v2.9.1)</td>
+<td>18</td>
+<td>14</td>
+<td>1.3</td>
+<td>-648.146452218985</td>
+<td>-0.257064</td>
+<td>-0.061014</td>
+</tr>
+<tr>
+<td>ORCA (v3.0.1)</td>
+<td>14</td>
+<td>13</td>
+<td>1.1</td>
 <td>-648.146451495738</td>
 <td>-0.257065</td>
 <td>-0.061045</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </table>
 
