@@ -60,7 +60,7 @@ Eric Berquist's results
 </tr>
 <tr>
 <td>DALTON (2013.0)</td>
-<td>10.25</td>
+<td>10.3</td>
 <td>19</td>
 <td>0.5</td>
 <td>-644.675706212821</td>
@@ -85,6 +85,15 @@ Eric Berquist's results
 <td>-0.353622</td>
 <td>0.074344</td>
 </tr>
+<tr>
+<td>Q-Chem (4.1.0.1, compiled)</td>
+<td>2.6</td>
+<td>14</td>
+<td>0.2</td>
+<td>-644.675706161474</td>
+<td>-0.354</td>
+<td>0.074</td>
+</tr>
 </table>
 
 ### B3LYP
@@ -100,7 +109,7 @@ Eric Berquist's results
 </tr>
 <tr>
 <td>DALTON (2013.0)</td>
-<td>42.17</td>
+<td>42.2</td>
 <td>20</td>
 <td>2.1</td>
 <td>-648.146520813871</td>
@@ -124,6 +133,15 @@ Eric Berquist's results
 <td>-648.146451495738</td>
 <td>-0.257065</td>
 <td>-0.061045</td>
+</tr>
+<tr>
+<td>Q-Chem (4.1.0.1, compiled)</td>
+<td>4.8</td>
+<td>14</td>
+<td>0.3</td>
+<td>-648.495723730572</td>
+<td>-0.260</td>
+<td>-0.064</td>
 </tr>
 </table>
 
