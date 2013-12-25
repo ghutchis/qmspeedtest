@@ -40,6 +40,52 @@ Baoilleach's results
 </tr>
 </table>
 
+Michael Banck's results
+----------------------
+
+**Machine:** Lenovo T400 (Intel(R) Core(TM)2 Duo CPU     P8400  @ 2.26GHz)
+
+**Fancy compiler or maths libraries used when compiling:** Debian 7 packages
+
+**NB: For reference, a single geometry step for Erkale/HF takes FIXME minutes
+
+### HF
+<table>
+<tr>
+<th>QM Package</th><th>Time (min)</th><th>Steps</th><th>per step</th>
+<th>Total E</th><th>HOMO</th><th>LUMO</th>
+</tr>
+<tr>
+<td>erkale</td><td>3394</td>
+<td>90</td><td>37.7</td>
+<td>-644.67570139</td>
+<td>-0.353712</td>
+<td>0.074269</td>
+</tr>
+<tr>
+<td>MPQC</td><td>64</td>
+<td>28</td><td>2.3</td>
+<td>-644.67570622</td>
+<td>-0.353644</td>
+<td>0.074333</td>
+</tr>
+</table>
+
+### B3LYP
+<table>
+<tr>
+<th>QM Package</th><th>Time (min)</th><th>Steps</th><th>per step</th>
+<th>Total E</th><th>HOMO</th><th>LUMO</th>
+</tr>
+<tr>
+<td>MPQC</td><td>387</td>
+<td>25</td><td>15.4</td>
+<td>-648.495700269</td>
+<td>-0.260571</td>
+<td>-0.064391</td>
+</tr>
+</table>
+
 MY NAME HERE's results
 ----------------------
 
