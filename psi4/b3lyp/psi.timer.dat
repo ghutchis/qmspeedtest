@@ -1,0 +1,175 @@
+
+Host: hartree
+
+Timers On : Mon Dec 23 12:35:42 2013
+Timers Off: Mon Dec 23 12:41:32 2013
+
+Wall Time:      350.00 seconds
+
+V: Grid     :       5.67u       0.03s       6.00w      1 call
+JK: (A|mn)  :       4.14u       0.00s       4.00w      1 call
+JK: (A|Q)^-1/2:      14.40u       0.01s      15.00w      1 call
+JK: (Q|mn)  :      22.74u       0.00s      23.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.01u       0.01s       0.00w      1 call
+Guess       :       0.31u       0.00s       0.00w      1 call
+Form G      :     294.03u       0.71s     301.00w     12 calls
+Form V      :     241.28u       0.22s     247.00w     12 calls
+V: D        :       0.02u       0.00s       0.00w     12 calls
+V: USO2AO   :       0.00u       0.00s       0.00w     12 calls
+V: V        :     241.26u       0.22s     247.00w     12 calls
+Properties  :     125.28u       0.06s     126.00w   8784 calls
+Points      :      65.18u       0.05s      59.00w   8784 calls
+Functional  :      41.29u       0.04s      49.00w   8784 calls
+V_XC        :      74.68u       0.12s      72.00w   8784 calls
+LSDA        :      69.86u       0.11s      71.00w  17568 calls
+GGA         :       4.39u       0.01s       1.00w   8784 calls
+V: AO2USO   :       0.00u       0.00s       0.00w     12 calls
+JK: D       :       0.03u       0.00s       0.00w     12 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w     12 calls
+JK: JK      :      52.72u       0.49s      54.00w     12 calls
+JK: J       :       0.46u       0.00s       0.00w     13 calls
+JK: J1      :       0.22u       0.00s       0.00w     13 calls
+JK: J2      :       0.24u       0.00s       0.00w     13 calls
+JK: K       :      51.92u       0.01s      53.00w     13 calls
+JK: K1      :      27.35u       0.00s      27.00w     13 calls
+JK: K2      :      24.57u       0.01s      26.00w     13 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w     12 calls
+Form F      :       0.00u       0.00s       0.00w     12 calls
+DIIS        :       0.12u       0.01s       0.00w     12 calls
+Form C      :       0.32u       0.00s       0.00w     12 calls
+Form D      :       0.01u       0.00s       0.00w     12 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     11 calls
+DIISManager::extrapolate:       0.01u       0.00s       0.00w     10 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     10 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     10 calls
+DIISManager::extrapolate: form new data:       0.01u       0.00s       0.00w     10 calls
+
+***********************************************************
+
+Host: hartree
+
+Timers On : Mon Dec 23 12:42:52 2013
+Timers Off: Mon Dec 23 12:51:02 2013
+
+Wall Time:      490.00 seconds
+
+V: Grid     :       5.68u       0.04s       6.00w      1 call
+JK: (A|mn)  :       4.21u       0.00s       5.00w      1 call
+JK: (A|Q)^-1/2:      15.49u       0.03s      16.00w      1 call
+JK: (Q|mn)  :      25.88u       0.02s      27.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.02u       0.01s       0.00w      1 call
+Guess       :       0.31u       0.00s       0.00w      1 call
+Form G      :     425.78u       1.81s     436.00w     14 calls
+Form V      :     265.33u       1.04s     271.00w     14 calls
+V: D        :       0.02u       0.00s       0.00w     14 calls
+V: USO2AO   :       0.00u       0.00s       0.00w     14 calls
+V: V        :     265.30u       1.04s     271.00w     14 calls
+Properties  :     142.17u       0.59s     155.00w  10248 calls
+Points      :      72.06u       0.31s      76.00w  10248 calls
+Functional  :      48.80u       0.21s      40.00w  10248 calls
+V_XC        :      74.20u       0.24s      76.00w  10248 calls
+LSDA        :      68.44u       0.24s      69.00w  20496 calls
+GGA         :       5.04u       0.00s       7.00w  10248 calls
+V: AO2USO   :       0.00u       0.00s       0.00w     14 calls
+JK: D       :       0.01u       0.00s       0.00w     14 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w     14 calls
+JK: JK      :     160.44u       0.77s     165.00w     14 calls
+JK: J       :       0.41u       0.00s       0.00w     13 calls
+JK: J1      :       0.19u       0.00s       0.00w     13 calls
+JK: J2      :       0.22u       0.00s       0.00w     13 calls
+JK: K       :      48.75u       0.16s      50.00w     13 calls
+JK: K1      :      23.58u       0.07s      24.00w     13 calls
+JK: K2      :      25.17u       0.09s      26.00w     13 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w     14 calls
+Form F      :       0.00u       0.00s       0.00w     14 calls
+DIIS        :       0.13u       0.00s       0.00w     14 calls
+Form C      :       0.32u       0.01s       0.00w     14 calls
+Form D      :       0.03u       0.00s       0.00w     14 calls
+DIISManager::add_entry:       0.01u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: hartree
+
+Timers On : Mon Dec 23 18:12:41 2013
+Timers Off: Mon Dec 23 18:19:55 2013
+
+Wall Time:      434.00 seconds
+
+V: Grid     :       5.67u       0.03s       6.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.02u       0.01s       0.00w      1 call
+Guess       :       0.31u       0.00s       0.00w      1 call
+Form G      :     270.02u       2.99s     278.00w     12 calls
+Form V      :     227.39u       0.22s     232.00w     12 calls
+V: D        :       0.00u       0.00s       0.00w     12 calls
+V: USO2AO   :       0.00u       0.00s       0.00w     12 calls
+V: V        :     227.39u       0.22s     232.00w     12 calls
+Properties  :     122.76u       0.11s     125.00w   8784 calls
+Points      :      64.22u       0.08s      71.00w   8784 calls
+Functional  :      42.03u       0.03s      41.00w   8784 calls
+V_XC        :      62.55u       0.08s      65.00w   8784 calls
+LSDA        :      57.92u       0.07s      61.00w  17568 calls
+GGA         :       4.22u       0.00s       4.00w   8784 calls
+V: AO2USO   :       0.00u       0.00s       0.00w     12 calls
+JK: D       :       0.02u       0.00s       0.00w     12 calls
+JK: JK      :      42.61u       2.77s      46.00w     12 calls
+Form F      :       0.00u       0.00s       0.00w     12 calls
+DIIS        :       0.14u       0.00s       0.00w     12 calls
+Form C      :       0.29u       0.03s       0.00w     12 calls
+Form D      :       0.01u       0.00s       0.00w     12 calls
+DIISManager::add_entry:       0.01u       0.00s       0.00w     11 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     10 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     10 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     10 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     10 calls
+
+***********************************************************
+
+Host: hartree
+
+Timers On : Mon Dec 23 18:23:42 2013
+Timers Off: Mon Dec 23 21:33:56 2013
+
+Wall Time:    11414.00 seconds
+
+V: Grid     :     180.74u       0.11s     182.00w     32 calls
+Form H      :       0.01u       0.00s      13.00w     16 calls
+Form S/X    :       0.34u       0.01s       0.00w     16 calls
+Guess       :       0.09u       0.02s       0.00w     16 calls
+Form G      :    4646.53u      49.61s    4738.00w    205 calls
+Form V      :    3914.00u       5.95s    3954.00w    205 calls
+V: D        :       0.24u       0.00s       0.00w    205 calls
+V: USO2AO   :       0.01u       0.01s       0.00w    205 calls
+V: V        :    3913.73u       5.94s    3954.00w    205 calls
+Properties  :    2354.78u       3.30s    2395.00w 161316 calls
+Points      :    1249.79u       1.95s    1241.00w 161316 calls
+Functional  :     758.89u       1.11s     749.00w 161316 calls
+V_XC        :    1090.93u       2.00s    1119.00w 149643 calls
+LSDA        :    1008.23u       1.83s    1037.00w 299286 calls
+GGA         :      74.48u       0.15s      69.00w 149643 calls
+V: AO2USO   :       0.00u       0.00s       0.00w    205 calls
+JK: D       :       0.21u       0.00s       0.00w    205 calls
+JK: JK      :     732.26u      43.66s     784.00w    205 calls
+Form F      :       0.01u       0.00s       0.00w    205 calls
+DIIS        :       2.51u       0.03s       0.00w    205 calls
+DIISManager::add_entry:       0.09u       0.00s       0.00w    190 calls
+Form C      :       4.86u       0.12s       8.00w    205 calls
+Form D      :       0.24u       0.00s       0.00w    205 calls
+DIISManager::extrapolate:       0.13u       0.02s       0.00w    174 calls
+DIISManager::extrapolate: bMatrix setup:       0.08u       0.00s       0.00w    174 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.01u       0.00s       0.00w    174 calls
+DIISManager::extrapolate: form new data:       0.04u       0.02s       0.00w    174 calls
+Grad: T     :       0.26u       0.00s       0.00w     16 calls
+Grad: V     :      12.15u       0.00s      12.00w     16 calls
+Grad: S     :       0.15u       0.00s       0.00w     16 calls
+Grad: JK    :    3554.16u       2.78s    3577.00w     16 calls
+Grad: XC    :     501.44u       0.66s     508.00w     16 calls
+
+***********************************************************

@@ -67,6 +67,13 @@ Michael Banck's results
 <td>-0.353644</td>
 <td>0.074333</td>
 </tr>
+<tr>
+<td>PSI4</td><td>115</td>
+<td>16</td><td>7.2</td>
+<td>-644.67570580</td>
+<td>-0.353619</td>
+<td>0.074353</td>
+</tr>
 </table>
 
 ### B3LYP
@@ -81,6 +88,13 @@ Michael Banck's results
 <td>-648.495700269</td>
 <td>-0.260571</td>
 <td>-0.064391</td>
+</tr>
+<tr>
+<td>PSI4</td><td>190</td>
+<td>16</td><td>11.9</td>
+<td>-648.495697810</td>
+<td>-0.260556</td>
+<td>-0.064363</td>
 </tr>
 </table>
 
