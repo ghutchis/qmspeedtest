@@ -47,8 +47,6 @@ Michael Banck's results
 
 **Fancy compiler or maths libraries used when compiling:** Debian 7 packages
 
-**NB: For reference, a single geometry step for Erkale/HF takes FIXME minutes
-
 ### HF
 <table>
 <tr>
