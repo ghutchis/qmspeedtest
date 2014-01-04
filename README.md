@@ -90,6 +90,13 @@ Michael Banck's results
 <th>Total E</th><th>HOMO</th><th>LUMO</th>
 </tr>
 <tr>
+<td>Erkale</td><td>9065</td>
+<td>58</td><td>156.3</td>
+<td>-648.495668200</td>
+<td>-0.260899</td>
+<td>-0.064457</td>
+</tr>
+<tr>
 <td>MPQC</td><td>387</td>
 <td>25</td><td>15.4</td>
 <td>-648.495700269</td>
