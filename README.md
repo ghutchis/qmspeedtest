@@ -90,7 +90,7 @@ Michael Banck's results
 <th>Total E</th><th>HOMO</th><th>LUMO</th>
 </tr>
 <tr>
-<td>Erkale</td><td>9065</td>
+<td>erkale</td><td>9065</td>
 <td>58</td><td>156.3</td>
 <td>-648.495668200</td>
 <td>-0.260899</td>
