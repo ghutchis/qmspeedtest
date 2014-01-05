@@ -95,6 +95,13 @@ Michael Banck's results
 <td>-0.353608</td>
 <td>0.074350</td>
 </tr>
+<tr>
+<td>NWChem 6.3r2</td><td>19</td>
+<td>20</td><td>1.0</td>
+<td>-644.67570661</td>
+<td>-0.353611</td>
+<td>0.074350</td>
+</tr>
 </table>
 
 ### B3LYP
@@ -130,6 +137,13 @@ Michael Banck's results
 <td>-648.495694155</td>
 <td>-0.260569</td>
 <td>-0.064392</td>
+</tr>
+<tr>
+<td>NWChem 6.3r2</td><td>55</td>
+<td>27</td><td>2.0</td>
+<td>-648.495694168</td>
+<td>-0.260570</td>
+<td>-0.064393</td>
 </tr>
 </table>
 
