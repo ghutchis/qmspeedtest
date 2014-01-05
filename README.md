@@ -89,8 +89,8 @@ Michael Banck's results
 <td>0.074353</td>
 </tr>
 <tr>
-<td>NWChem 6.1</td><td>22</td>
-<td>21</td><td>1.0</td>
+<td>NWChem 6.1</td><td>21</td>
+<td>23</td><td>0.9</td>
 <td>-644.67570680</td>
 <td>-0.353608</td>
 <td>0.074350</td>
@@ -133,7 +133,7 @@ Michael Banck's results
 </tr>
 <tr>
 <td>NWChem 6.1</td><td>56</td>
-<td>26</td><td>2.1</td>
+<td>27</td><td>2.1</td>
 <td>-648.495694155</td>
 <td>-0.260569</td>
 <td>-0.064392</td>
