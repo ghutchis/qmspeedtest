@@ -30,6 +30,7 @@ Eric Berquist's results
 <td>-0.35364477</td>
 <td>0.07433447</td>
 </tr>
+<tr>
 <td>MPQC (2.3.1, Ubuntu)</td>
 <td>28.3</td>
 <td>28</td>
@@ -37,6 +38,15 @@ Eric Berquist's results
 <td>-644.6757062224</td>
 <td>-0.353644</td>
 <td>0.074333</td>
+</tr>
+<tr>
+<td>NWChem (6.3, Ubuntu)</td>
+<td>2.8</td>
+<td>6</td>
+<td>0.5</td>
+<td>-644.675706835039</td>
+<td>-0.3536089</td>
+<td>0.07435173</td>
 </tr>
 <tr>
 <td>ORCA (2.9.1)</td>
@@ -87,6 +97,7 @@ Eric Berquist's results
 <td>-0.25714248</td>
 <td>-0.06101431</td>
 </tr>
+<tr>
 <td>MPQC (2.3.1, Ubuntu)</td>
 <td>143.8</td>
 <td>25</td>
@@ -94,6 +105,15 @@ Eric Berquist's results
 <td>-648.4957002690</td>
 <td>-0.260571</td>
 <td>-0.064391</td>
+</tr>
+<tr>
+<td>NWChem (6.3, Ubuntu)</td>
+<td>6.5</td>
+<td>6</td>
+<td>1.1</td>
+<td>-648.495694456095</td>
+<td>-0.2605951</td>
+<td>-0.06440548</td>
 </tr>
 <tr>
 <td>ORCA (2.9.1)</td>
