@@ -1,0 +1,468 @@
+Basis set 6-31G found in file 6-31G.gbs in /usr/share/erkale/basis/.
+
+
+Current Settings used by ERKALE:
+     AtomGuess      	                Auto	Method used for atomic guess (Auto for same as method)
+     Basis          	               6-31G	Basis set used in calculation
+     BasisOrth      	                Auto	Method of orthonormalization of basis set
+     C1-DIIS        	               false	Use older version of DIIS (C1-DIIS instead of C2-DIIS)?
+     Charge         	                   0	Total charge of system
+     DIISOrder      	                  10	How many DIIS iterations to keep in memory?
+     DIISThr        	           5.000e-02	DIIS error threshold for DIIS updates
+     DecFock        	               false	Use decontracted basis to calculate Fock matrix (direct HF)
+     Decontract     	                    	Indices of atoms to decontract basis set for
+     DeltaEmax      	           1.000e-06	Maximum allowed change of energy
+     DeltaPmax      	           1.000e-06	Maximum allowed maximum difference of density matrix
+     DeltaPrms      	           1.000e-08	Maximum allowed RMS difference of density matrix
+     DensityFitting 	               false	Use density fitting / RI?
+     Direct         	               false	Calculate two-electron integrals (or density fitting) on-the-fly?
+     FittingBasis   	                Auto	Basis to use for density fitting / RI (Auto for automatic)
+     FittingMemory  	                1000	Amount of memory in MB to use for exchange fitting
+     FittingThreshold	           1.000e-08	Linear dependence threshold for Coulomb integrals in density fitting
+     ForcePol       	               false	Force polarized calculation
+     FreezeCore     	               false	Freeze the atomic cores?
+     Guess          	              Atomic	Used guess: atomic (default), molecular, or core
+     LineSearch     	               false	Do line search in level shift (EXPENSIVE!)
+     LoadChk        	          erkale.chk	File to load old results from
+     Logfile        	          erkale.log	File to print out full information, stdout for screen
+     MaxIter        	                 100	Maximum number of iterations in SCF cycle
+     Method         	                  HF	Method used in calculation (HF or a DFT functional)
+     Multiplicity   	                   1	Spin multiplicity
+     Occupancies    	                    	Orbital occupancies
+     SaveChk        	          erkale.chk	File to use as checkpoint
+     Shift          	           0.000e+00	Level shift to use in Hartree
+     StrictIntegrals	               false	Use strict integrals?
+     System         	       optimized.xyz	System as an xyz file
+     UseADIIS       	                true	Use ADIIS for Fock matrix interpolation? (DIIS takes preference)
+     UseBroyden     	               false	Use Broyden mixing of Fock matrices?
+     UseDIIS        	                true	Use Pulay's Direct Inversion in the Iterative Subspace?
+     UseLM          	                true	Use a spherical harmonics basis set by default?
+     UseTRDSM       	               false	Use Trust-Region DSM?
+     UseTRRH        	               false	Use Trust-Region Roothaan-Hall?
+     Verbose        	                true	Verbose calculation?
+
+There are 81 shells and 21 nuclei in the basis set.
+
+List of nuclei, geometry in Ångström with three decimal places:
+		 Z	    x	    y	    z
+1	C	 6	  2.082	 -0.168	  0.311
+2	C	 6	  0.766	  2.097	 -0.564
+3	C	 6	  2.806	  0.972	  0.019
+4	C	 6	  2.143	  2.108	 -0.423
+5	C	 6	 -3.626	  0.920	 -0.038
+6	C	 6	  0.694	 -0.202	  0.171
+7	C	 6	  0.049	  0.953	 -0.266
+8	O	 8	  0.644	 -2.470	  0.877
+9	O	 8	 -1.942	  1.199	  1.667
+10	O	 8	 -1.300	 -1.524	  0.354
+11	C	 6	  0.041	 -1.484	  0.501
+12	C	 6	 -2.250	  1.050	  0.512
+13	O	 8	 -1.321	  1.008	 -0.494
+14	H	 1	 -1.666	 -2.372	  0.599
+15	H	 1	  2.575	 -1.056	  0.650
+16	H	 1	  0.233	  2.960	 -0.906
+17	H	 1	  3.871	  0.974	  0.134
+18	H	 1	  2.693	  2.999	 -0.655
+19	H	 1	 -3.730	 -0.055	 -0.496
+20	H	 1	 -4.347	  1.035	  0.754
+21	H	 1	 -3.793	  1.664	 -0.804
+
+List of basis functions:
+Shell    1	S cart shell at nucleus   1 with with basis functions    1-1   
+Shell    2	S cart shell at nucleus   1 with with basis functions    2-2   
+Shell    3	S cart shell at nucleus   1 with with basis functions    3-3   
+Shell    4	P cart shell at nucleus   1 with with basis functions    4-6   
+Shell    5	P cart shell at nucleus   1 with with basis functions    7-9   
+Shell    6	S cart shell at nucleus   2 with with basis functions   10-10  
+Shell    7	S cart shell at nucleus   2 with with basis functions   11-11  
+Shell    8	S cart shell at nucleus   2 with with basis functions   12-12  
+Shell    9	P cart shell at nucleus   2 with with basis functions   13-15  
+Shell   10	P cart shell at nucleus   2 with with basis functions   16-18  
+Shell   11	S cart shell at nucleus   3 with with basis functions   19-19  
+Shell   12	S cart shell at nucleus   3 with with basis functions   20-20  
+Shell   13	S cart shell at nucleus   3 with with basis functions   21-21  
+Shell   14	P cart shell at nucleus   3 with with basis functions   22-24  
+Shell   15	P cart shell at nucleus   3 with with basis functions   25-27  
+Shell   16	S cart shell at nucleus   4 with with basis functions   28-28  
+Shell   17	S cart shell at nucleus   4 with with basis functions   29-29  
+Shell   18	S cart shell at nucleus   4 with with basis functions   30-30  
+Shell   19	P cart shell at nucleus   4 with with basis functions   31-33  
+Shell   20	P cart shell at nucleus   4 with with basis functions   34-36  
+Shell   21	S cart shell at nucleus   5 with with basis functions   37-37  
+Shell   22	S cart shell at nucleus   5 with with basis functions   38-38  
+Shell   23	S cart shell at nucleus   5 with with basis functions   39-39  
+Shell   24	P cart shell at nucleus   5 with with basis functions   40-42  
+Shell   25	P cart shell at nucleus   5 with with basis functions   43-45  
+Shell   26	S cart shell at nucleus   6 with with basis functions   46-46  
+Shell   27	S cart shell at nucleus   6 with with basis functions   47-47  
+Shell   28	S cart shell at nucleus   6 with with basis functions   48-48  
+Shell   29	P cart shell at nucleus   6 with with basis functions   49-51  
+Shell   30	P cart shell at nucleus   6 with with basis functions   52-54  
+Shell   31	S cart shell at nucleus   7 with with basis functions   55-55  
+Shell   32	S cart shell at nucleus   7 with with basis functions   56-56  
+Shell   33	S cart shell at nucleus   7 with with basis functions   57-57  
+Shell   34	P cart shell at nucleus   7 with with basis functions   58-60  
+Shell   35	P cart shell at nucleus   7 with with basis functions   61-63  
+Shell   36	S cart shell at nucleus   8 with with basis functions   64-64  
+Shell   37	S cart shell at nucleus   8 with with basis functions   65-65  
+Shell   38	S cart shell at nucleus   8 with with basis functions   66-66  
+Shell   39	P cart shell at nucleus   8 with with basis functions   67-69  
+Shell   40	P cart shell at nucleus   8 with with basis functions   70-72  
+Shell   41	S cart shell at nucleus   9 with with basis functions   73-73  
+Shell   42	S cart shell at nucleus   9 with with basis functions   74-74  
+Shell   43	S cart shell at nucleus   9 with with basis functions   75-75  
+Shell   44	P cart shell at nucleus   9 with with basis functions   76-78  
+Shell   45	P cart shell at nucleus   9 with with basis functions   79-81  
+Shell   46	S cart shell at nucleus  10 with with basis functions   82-82  
+Shell   47	S cart shell at nucleus  10 with with basis functions   83-83  
+Shell   48	S cart shell at nucleus  10 with with basis functions   84-84  
+Shell   49	P cart shell at nucleus  10 with with basis functions   85-87  
+Shell   50	P cart shell at nucleus  10 with with basis functions   88-90  
+Shell   51	S cart shell at nucleus  11 with with basis functions   91-91  
+Shell   52	S cart shell at nucleus  11 with with basis functions   92-92  
+Shell   53	S cart shell at nucleus  11 with with basis functions   93-93  
+Shell   54	P cart shell at nucleus  11 with with basis functions   94-96  
+Shell   55	P cart shell at nucleus  11 with with basis functions   97-99  
+Shell   56	S cart shell at nucleus  12 with with basis functions  100-100 
+Shell   57	S cart shell at nucleus  12 with with basis functions  101-101 
+Shell   58	S cart shell at nucleus  12 with with basis functions  102-102 
+Shell   59	P cart shell at nucleus  12 with with basis functions  103-105 
+Shell   60	P cart shell at nucleus  12 with with basis functions  106-108 
+Shell   61	S cart shell at nucleus  13 with with basis functions  109-109 
+Shell   62	S cart shell at nucleus  13 with with basis functions  110-110 
+Shell   63	S cart shell at nucleus  13 with with basis functions  111-111 
+Shell   64	P cart shell at nucleus  13 with with basis functions  112-114 
+Shell   65	P cart shell at nucleus  13 with with basis functions  115-117 
+Shell   66	S cart shell at nucleus  14 with with basis functions  118-118 
+Shell   67	S cart shell at nucleus  14 with with basis functions  119-119 
+Shell   68	S cart shell at nucleus  15 with with basis functions  120-120 
+Shell   69	S cart shell at nucleus  15 with with basis functions  121-121 
+Shell   70	S cart shell at nucleus  16 with with basis functions  122-122 
+Shell   71	S cart shell at nucleus  16 with with basis functions  123-123 
+Shell   72	S cart shell at nucleus  17 with with basis functions  124-124 
+Shell   73	S cart shell at nucleus  17 with with basis functions  125-125 
+Shell   74	S cart shell at nucleus  18 with with basis functions  126-126 
+Shell   75	S cart shell at nucleus  18 with with basis functions  127-127 
+Shell   76	S cart shell at nucleus  19 with with basis functions  128-128 
+Shell   77	S cart shell at nucleus  19 with with basis functions  129-129 
+Shell   78	S cart shell at nucleus  20 with with basis functions  130-130 
+Shell   79	S cart shell at nucleus  20 with with basis functions  131-131 
+Shell   80	S cart shell at nucleus  21 with with basis functions  132-132 
+Shell   81	S cart shell at nucleus  21 with with basis functions  133-133 
+
+Basis set contains 133 functions, maximum angular momentum is 1.
+Spherical harmonic Gaussians are used by default, there are 133 cartesians.
+
+Forming overlap matrix ... done (0.03 s)
+Forming kinetic energy matrix ... done (0.22 s)
+Forming nuclear attraction matrix ... done (1.10 s)
+
+Smallest eigenvalue of overlap matrix is 4.97e-04, ratio to largest is 8.75e-05.
+Using symmetric orthogonalization.
+Basis set diagonalized in 0.02 s.
+
+Forming table of 317659328 ERIs, requiring 302 Mi 966 ki of memory ... done (4 min 50.80 s)
+
+Initialization of computation done in 4 min 52.17 s.
+
+
+ ******* Initialization of run ********
+
+Using input guess for orbitals.
+HOMO-LUMO gap is   11.65 eV. Energies of lowest lying states:
+   -20.624474*   -20.620300*   -20.570556*   -20.568997*   -11.423712*
+   -11.415022*   -11.341627*   -11.277585*   -11.268864*   -11.266231*
+   -11.256875*   -11.254385*   -11.245304*    -1.498256*    -1.487520*
+    -1.391553*    -1.382711*    -1.191581*    -1.073283*    -1.064565*
+    -1.022170*    -0.925809*    -0.877558*    -0.837225*    -0.804527*
+    -0.734467*    -0.718722*    -0.699474*    -0.693638*    -0.675054*
+    -0.668219*    -0.647975*    -0.636119*    -0.625842*    -0.591287*
+    -0.585443*    -0.576723*    -0.561875*    -0.538657*    -0.522459*
+    -0.519570*    -0.487240*    -0.471532*    -0.464072*    -0.454436*
+    -0.365746*    -0.353713*     0.074267      0.127739      0.169761 
+     0.211303      0.219935      0.233252      0.257325      0.285191 
+
+Orbital occupancies:
+2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 
+2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 
+2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 
+2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 2.000 
+
+ ******* Iteration    1 ********
+Forming HF Coulomb and exchange matrices ... done (22.01 s)
+
+Using DIIS extrapolated Fock operator.
+DIIS weights
+   1.0000
+
+Solving SCF equations ... done (0.03 s)
+HOMO-LUMO gap is   11.65 eV. Energies of lowest lying states:
+   -20.624478*   -20.620298*   -20.570550*   -20.568996*   -11.423713*
+   -11.415021*   -11.341633*   -11.277596*   -11.268863*   -11.266235*
+   -11.256875*   -11.254385*   -11.245306*    -1.498256*    -1.487519*
+    -1.391555*    -1.382709*    -1.191583*    -1.073285*    -1.064566*
+    -1.022171*    -0.925809*    -0.877560*    -0.837228*    -0.804528*
+    -0.734468*    -0.718722*    -0.699474*    -0.693638*    -0.675055*
+    -0.668219*    -0.647975*    -0.636119*    -0.625845*    -0.591288*
+    -0.585444*    -0.576726*    -0.561875*    -0.538660*    -0.522461*
+    -0.519571*    -0.487239*    -0.471532*    -0.464070*    -0.454435*
+    -0.365749*    -0.353714*     0.074267      0.127736      0.169762 
+     0.211303      0.219934      0.233252      0.257324      0.285191 
+
+Dipole:	x		y		z		dipole change
+	-0.24644534	 0.60619351	-1.00735674	 1.201238e+00
+Energy:	electronic	total		virial		energy change
+	-1431.17531177	-644.67570130	 0.99955949	-644.676
+	kinetic		nuclear		Coulomb		Exchange
+	 644.95981169	-3086.74443933	 1093.05370854	-82.44439267
+Errors:	Max dens	RMS dens	DIIS
+	 1.091244e-04	 4.145410e-06	 3.914546e-04
+
+Iteration took 22.15 s.
+
+ ******* Iteration    2 ********
+Forming HF Coulomb and exchange matrices ... done (22.56 s)
+
+Using DIIS extrapolated Fock operator.
+DIIS weights
+   1.0520  -0.0520
+
+Solving SCF equations ... done (0.03 s)
+HOMO-LUMO gap is   11.65 eV. Energies of lowest lying states:
+   -20.624471*   -20.620299*   -20.570564*   -20.568997*   -11.423709*
+   -11.415022*   -11.341620*   -11.277577*   -11.268866*   -11.266228*
+   -11.256875*   -11.254387*   -11.245302*    -1.498255*    -1.487519*
+    -1.391554*    -1.382711*    -1.191579*    -1.073282*    -1.064563*
+    -1.022169*    -0.925806*    -0.877558*    -0.837224*    -0.804525*
+    -0.734466*    -0.718722*    -0.699474*    -0.693637*    -0.675053*
+    -0.668219*    -0.647974*    -0.636118*    -0.625843*    -0.591287*
+    -0.585443*    -0.576724*    -0.561874*    -0.538657*    -0.522459*
+    -0.519569*    -0.487240*    -0.471533*    -0.464072*    -0.454436*
+    -0.365745*    -0.353711*     0.074269      0.127739      0.169762 
+     0.211303      0.219935      0.233253      0.257325      0.285192 
+
+Dipole:	x		y		z		dipole change
+	-0.24649354	 0.60617715	-1.00736039	 4.689436e-06
+Energy:	electronic	total		virial		energy change
+	-1431.17531183	-644.67570136	 0.99955948	-6.05319e-08
+	kinetic		nuclear		Coulomb		Exchange
+	 644.95981595	-3086.74459660	 1093.05386311	-82.44439429
+Errors:	Max dens	RMS dens	DIIS
+	 6.314792e-06	 4.107442e-07	 1.920780e-05
+
+Iteration took 22.71 s.
+
+ ******* Iteration    3 ********
+Forming HF Coulomb and exchange matrices ... done (22.43 s)
+
+Using DIIS extrapolated Fock operator.
+DIIS weights
+   0.8280   0.1822  -0.0102
+
+Solving SCF equations ... done (0.03 s)
+HOMO-LUMO gap is   11.65 eV. Energies of lowest lying states:
+   -20.624477*   -20.620299*   -20.570552*   -20.568997*   -11.423714*
+   -11.415023*   -11.341628*   -11.277588*   -11.268862*   -11.266231*
+   -11.256874*   -11.254384*   -11.245304*    -1.498257*    -1.487520*
+    -1.391555*    -1.382711*    -1.191581*    -1.073283*    -1.064565*
+    -1.022170*    -0.925808*    -0.877559*    -0.837226*    -0.804527*
+    -0.734467*    -0.718722*    -0.699474*    -0.693638*    -0.675054*
+    -0.668219*    -0.647975*    -0.636118*    -0.625844*    -0.591287*
+    -0.585444*    -0.576725*    -0.561874*    -0.538658*    -0.522459*
+    -0.519570*    -0.487240*    -0.471532*    -0.464072*    -0.454436*
+    -0.365747*    -0.353712*     0.074268      0.127738      0.169762 
+     0.211302      0.219934      0.233253      0.257325      0.285192 
+
+Dipole:	x		y		z		dipole change
+	-0.24646391	 0.60618102	-1.00735426	-9.262459e-06
+Energy:	electronic	total		virial		energy change
+	-1431.17531184	-644.67570136	 0.99955946	-3.41515e-10
+	kinetic		nuclear		Coulomb		Exchange
+	 644.95983332	-3086.74451841	 1093.05377118	-82.44439794
+Errors:	Max dens	RMS dens	DIIS
+	 4.185497e-06	 2.192629e-07	 3.757727e-06
+
+Iteration took 22.57 s.
+
+ ******* Iteration    4 ********
+Forming HF Coulomb and exchange matrices ... done (22.48 s)
+
+Using DIIS extrapolated Fock operator.
+DIIS weights
+   0.8454   0.2732  -0.1242   0.0056
+
+Solving SCF equations ... done (0.03 s)
+HOMO-LUMO gap is   11.65 eV. Energies of lowest lying states:
+   -20.624474*   -20.620298*   -20.570557*   -20.568997*   -11.423712*
+   -11.415022*   -11.341626*   -11.277585*   -11.268864*   -11.266230*
+   -11.256874*   -11.254385*   -11.245303*    -1.498256*    -1.487519*
+    -1.391554*    -1.382711*    -1.191580*    -1.073283*    -1.064564*
+    -1.022170*    -0.925807*    -0.877558*    -0.837226*    -0.804526*
+    -0.734467*    -0.718722*    -0.699474*    -0.693638*    -0.675054*
+    -0.668219*    -0.647975*    -0.636118*    -0.625844*    -0.591287*
+    -0.585444*    -0.576724*    -0.561874*    -0.538658*    -0.522459*
+    -0.519570*    -0.487240*    -0.471533*    -0.464072*    -0.454436*
+    -0.365746*    -0.353712*     0.074268      0.127738      0.169762 
+     0.211303      0.219934      0.233253      0.257325      0.285192 
+
+Dipole:	x		y		z		dipole change
+	-0.24647736	 0.60618142	-1.00735558	 4.071577e-06
+Energy:	electronic	total		virial		energy change
+	-1431.17531184	-644.67570136	 0.99955949	-4.82032e-11
+	kinetic		nuclear		Coulomb		Exchange
+	 644.95981399	-3086.74455686	 1093.05382541	-82.44439438
+Errors:	Max dens	RMS dens	DIIS
+	 1.681894e-06	 8.299913e-08	 2.269452e-06
+
+Iteration took 22.63 s.
+
+ ******* Iteration    5 ********
+Forming HF Coulomb and exchange matrices ... done (22.42 s)
+
+Using DIIS extrapolated Fock operator.
+DIIS weights
+   1.0029   0.0457  -0.0328  -0.0166   0.0008
+
+Solving SCF equations ... done (0.03 s)
+HOMO-LUMO gap is   11.65 eV. Energies of lowest lying states:
+   -20.624475*   -20.620299*   -20.570556*   -20.568997*   -11.423712*
+   -11.415023*   -11.341626*   -11.277584*   -11.268864*   -11.266230*
+   -11.256875*   -11.254385*   -11.245303*    -1.498256*    -1.487519*
+    -1.391555*    -1.382711*    -1.191580*    -1.073283*    -1.064564*
+    -1.022170*    -0.925807*    -0.877558*    -0.837226*    -0.804526*
+    -0.734467*    -0.718722*    -0.699474*    -0.693638*    -0.675054*
+    -0.668219*    -0.647975*    -0.636118*    -0.625844*    -0.591287*
+    -0.585444*    -0.576724*    -0.561874*    -0.538658*    -0.522459*
+    -0.519570*    -0.487240*    -0.471533*    -0.464072*    -0.454436*
+    -0.365746*    -0.353712*     0.074269      0.127738      0.169762 
+     0.211303      0.219934      0.233253      0.257325      0.285192 
+
+Dipole:	x		y		z		dipole change
+	-0.24647753	 0.60617936	-1.00735446	-1.945906e-06
+Energy:	electronic	total		virial		energy change
+	-1431.17531184	-644.67570136	 0.99955947	-1.40972e-11
+	kinetic		nuclear		Coulomb		Exchange
+	 644.95982300	-3086.74454964	 1093.05381080	-82.44439599
+Errors:	Max dens	RMS dens	DIIS
+	 3.058181e-07	 2.167052e-08	 3.724792e-07
+
+Iteration took 22.59 s.
+
+ ******* Iteration    6 ********
+Restarting Fock matrix formation from scratch.
+Forming HF Coulomb and exchange matrices ... done (22.34 s)
+
+Using DIIS extrapolated Fock operator.
+DIIS weights
+   0.8951   0.2478  -0.1061  -0.0498   0.0136  -0.0006
+
+Solving SCF equations ... done (0.03 s)
+HOMO-LUMO gap is   11.65 eV. Energies of lowest lying states:
+   -20.624475*   -20.620299*   -20.570557*   -20.568997*   -11.423712*
+   -11.415023*   -11.341626*   -11.277584*   -11.268864*   -11.266230*
+   -11.256874*   -11.254385*   -11.245303*    -1.498256*    -1.487519*
+    -1.391555*    -1.382711*    -1.191580*    -1.073283*    -1.064564*
+    -1.022170*    -0.925807*    -0.877558*    -0.837226*    -0.804526*
+    -0.734467*    -0.718722*    -0.699474*    -0.693638*    -0.675054*
+    -0.668219*    -0.647975*    -0.636118*    -0.625844*    -0.591287*
+    -0.585444*    -0.576724*    -0.561874*    -0.538658*    -0.522459*
+    -0.519570*    -0.487240*    -0.471533*    -0.464072*    -0.454436*
+    -0.365746*    -0.353712*     0.074269      0.127738      0.169762 
+     0.211303      0.219934      0.233253      0.257325      0.285192 
+
+Dipole:	x		y		z		dipole change
+	-0.24647774	 0.60618059	-1.00735504	 1.148523e-06
+Energy:	electronic	total		virial		energy change
+	-1431.17531184	-644.67570136	 0.99955948	-1.36424e-12
+	kinetic		nuclear		Coulomb		Exchange
+	 644.95982161	-3086.74454615	 1093.05380845	-82.44439575
+Errors:	Max dens	RMS dens	DIIS
+	 1.617636e-07	 9.094884e-09	 1.494247e-07
+
+Iteration took 22.52 s.
+
+ ******* Iteration    7 ********
+Forming HF Coulomb and exchange matrices ... done (22.59 s)
+
+Using DIIS extrapolated Fock operator.
+DIIS weights
+   1.1422e+00  -3.1549e-02  -1.1726e-01   1.5880e-03   3.9125e-03   1.2049e-03  -5.8273e-05
+
+Solving SCF equations ... done (0.03 s)
+HOMO-LUMO gap is   11.65 eV. Energies of lowest lying states:
+   -20.624475*   -20.620299*   -20.570557*   -20.568997*   -11.423712*
+   -11.415022*   -11.341626*   -11.277585*   -11.268864*   -11.266230*
+   -11.256874*   -11.254385*   -11.245303*    -1.498256*    -1.487519*
+    -1.391554*    -1.382711*    -1.191580*    -1.073283*    -1.064564*
+    -1.022170*    -0.925807*    -0.877558*    -0.837226*    -0.804526*
+    -0.734467*    -0.718722*    -0.699474*    -0.693638*    -0.675054*
+    -0.668219*    -0.647975*    -0.636118*    -0.625844*    -0.591287*
+    -0.585444*    -0.576724*    -0.561874*    -0.538658*    -0.522459*
+    -0.519570*    -0.487240*    -0.471533*    -0.464072*    -0.454436*
+    -0.365746*    -0.353712*     0.074269      0.127738      0.169762 
+     0.211303      0.219934      0.233253      0.257325      0.285192 
+
+Dipole:	x		y		z		dipole change
+	-0.24647787	 0.60618046	-1.00735482	-2.230456e-07
+Energy:	electronic	total		virial		energy change
+	-1431.17531184	-644.67570136	 0.99955948	-1.59162e-12
+	kinetic		nuclear		Coulomb		Exchange
+	 644.95982171	-3086.74454694	 1093.05380917	-82.44439578
+Errors:	Max dens	RMS dens	DIIS
+	 4.386451e-08	 3.057310e-09	 4.497880e-08
+
+Iteration took 22.77 s.
+
+ ******* Convergence achieved ********
+Dipole moment is (-0.626484,1.540757,-2.560440) D, |mu|=3.053239 D.
+Solution of RHF took 2 min 38.06 s.
+
+Mulliken charges
+   1 C           -0.160381
+   2 C           -0.210468
+   3 C           -0.209241
+   4 C           -0.165464
+   5 C           -0.518883
+   6 C           -0.132157
+   7 C            0.433248
+   8 O           -0.555722
+   9 O           -0.540989
+  10 O           -0.752732
+  11 C            0.807307
+  12 C            0.780873
+  13 O           -0.787898
+  14 H            0.447803
+  15 H            0.271767
+  16 H            0.231573
+  17 H            0.218596
+  18 H            0.221393
+  19 H            0.215126
+  20 H            0.203021
+  21 H            0.203228
+Sum of Mulliken charges -3.708145e-14
+
+Electron density at nuclei
+   1 C          118.354076
+   2 C          118.328312
+   3 C          118.313911
+   4 C          118.347076
+   5 C          118.271498
+   6 C          118.269830
+   7 C          118.251170
+   8 O          291.526902
+   9 O          291.543651
+  10 O          291.173186
+  11 C          118.261947
+  12 C          118.315527
+  13 O          291.185775
+  14 H            0.395015
+  15 H            0.426465
+  16 H            0.428096
+  17 H            0.431542
+  18 H            0.432664
+  19 H            0.420553
+  20 H            0.426698
+  21 H            0.422586
+
+Running program took 7 min 31.31 s.
+Current time is Sun 05 Jan 2014 00:25:47.
