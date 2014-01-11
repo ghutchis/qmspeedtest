@@ -90,12 +90,12 @@ Eric Berquist's results
 </tr>
 <tr>
 <td>DALTON (2013.0)</td>
-<td>42.2</td>
+<td>42.6</td>
 <td>20</td>
 <td>2.1</td>
-<td>-648.146520813871</td>
-<td>-0.25714248</td>
-<td>-0.06101431</td>
+<td>-648.4956905852</td>
+<td>-0.26060842</td>
+<td>-0.06441321</td>
 </tr>
 <tr>
 <td>MPQC (2.3.1, Ubuntu)</td>

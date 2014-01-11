@@ -7,14 +7,14 @@
 
    Invocation: /home/eric/opt/apps/dalton/2013/build/dalton b3lyp.dal
 
-   Wed Dec 18 23:33:29 EST 2013
+   Sat Jan 11 16:27:57 EST 2014
 
    Calculation: b3lyp  (input file: b3lyp.dal)
-   PID        : 15613
-   Input dir  : /home/eric/repos/forks/qmspeedtest/dalton/2013/b3lyp
+   PID        : 25964
+   Input dir  : /home/eric/repos/forks/qmspeedtest/berky/dalton/2013.0/b3lyp
    Scratch dir: /home/eric/scratch/dalton/DALTON_scratch_eric/b3lyp
 
-/home/eric/repos/forks/qmspeedtest/dalton/2013/b3lyp/.mol does not exist or is not readable
+/home/eric/repos/forks/qmspeedtest/berky/dalton/2013.0/b3lyp/.mol does not exist or is not readable
  => assuming user has written MOLECULE input in dalton input file
 
  DALTON: default work memory size used.            64000000
@@ -22,8 +22,8 @@
  Work memory size (LMWORK+2):    64000002 =  488.28 megabytes; node   0
 
    0: Directories for basis set searches:
-     /home/eric/repos/forks/qmspeedtest/dalton/2013/b3lyp:/home/eric/opt/apps/dalton/2013/build/basis
-b3lyp.tar.gz has been copied to /home/eric/repos/forks/qmspeedtest/dalton/2013/b3lyp
+     /home/eric/repos/forks/qmspeedtest/berky/dalton/2013.0/b3lyp:/home/eric/opt/apps/dalton/2013/build/basis
+b3lyp.tar.gz has been copied to /home/eric/repos/forks/qmspeedtest/berky/dalton/2013.0/b3lyp
 
-   Thu Dec 19 00:15:39 EST 2013
+   Sat Jan 11 17:10:35 EST 2014
    ***************************************** 
