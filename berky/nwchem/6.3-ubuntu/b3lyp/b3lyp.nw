@@ -37,6 +37,7 @@ dft
 end
 
 driver
+  inhess 1
   maxiter 40
 end
 
