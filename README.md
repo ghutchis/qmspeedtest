@@ -1,10 +1,11 @@
 Quantum Chemistry Speed Test
 ============================
 
-**The rules**: Calculations must only use a single CPU. The B3LYP used should be that used by default by Gaussian and NWChem (namely the VWN3 not VWN5). And please, no Gaussian input files or results.
+**The rules**: Calculations must only use a single core. The B3LYP used should be that used by default by Gaussian and NWChem (namely the VWN3 not VWN5). And please, no Gaussian input files or results.
 
 Various people have submitted results:
 - [Eric Berquist](http://github.com/berky/qmspeedtest)
+- [Karol Langner] (http://github.com/langner/qmspeedtest)
 - [Michael Banck](http://github.com/mbanck/qmspeedtest)
 - [Noel O'Boyle](http://github.com/baoilleach/qmspeedtest)
 - [Pedro Silva](http://github.com/PedroJSilva/qmspeedtest)
@@ -32,11 +33,11 @@ Baoilleach's results
 <td>0.074269</td>
 </tr>
 <tr>
-<td>NWChem 6.3</td><td>8.5</td>
-<td>19</td><td>0.4</td>
+<td>NWChem 6.3</td><td>8.8</td>
+<td>20</td><td>0.4</td>
 <td>-644.67570661</td>
-<td>-0.3536105</td>
-<td>0.07435040</td>
+<td>-0.353611</td>
+<td>0.074350</td>
 </tr>
 </table>
 
@@ -54,11 +55,11 @@ Baoilleach's results
 <td>-0.064457</td>
 </tr>
 <tr>
-<td>NWChem 6.3</td><td>17.0</td>
-<td>19</td><td>0.9</td>
-<td>-648.49569450</td>
-<td>-0.2605941</td>
-<td>-0.06439398</td>
+<td>NWChem 6.3</td><td>27.6</td>
+<td>27</td><td>1.0</td>
+<td>-648.495694167</td>
+<td>-0.260570</td>
+<td>-0.064393</td>
 </tr>
 </table>
 
