@@ -5,7 +5,7 @@ Quantum Chemistry Speed Test
 
 Various people have submitted results:
 - [Eric Berquist](http://github.com/berky/qmspeedtest)
-- [Karol Langner] (http://github.com/langner/qmspeedtest)
+- [Karol Langner](http://github.com/langner/qmspeedtest)
 - [Michael Banck](http://github.com/mbanck/qmspeedtest)
 - [Noel O'Boyle](http://github.com/baoilleach/qmspeedtest)
 - [Pedro Silva](http://github.com/PedroJSilva/qmspeedtest)
@@ -22,7 +22,7 @@ Eric Berquist's results
 ### HF
 <table>
 <tr>
-<th>QM Package</th>
+<th>QM Package</th><th>Version</th>
 <th>Time (min)</th>
 <th>Steps</th>
 <th>per step</th>
@@ -31,7 +31,7 @@ Eric Berquist's results
 <th>LUMO</th>
 </tr>
 <tr>
-<td>DALTON (2013.0)</td>
+<td>DALTON</td><td>2013.0</td>
 <td>10.3</td>
 <td>19</td>
 <td>0.5</td>
@@ -40,7 +40,7 @@ Eric Berquist's results
 <td>0.07433447</td>
 </tr>
 <tr>
-<td>MPQC (2.3.1, Ubuntu)</td>
+<td>MPQC</td><td>2.3.1, Ubuntu</td>
 <td>28.3</td>
 <td>28</td>
 <td>1.0</td>
@@ -49,7 +49,7 @@ Eric Berquist's results
 <td>0.074333</td>
 </tr>
 <tr>
-<td>NWChem (6.3, Ubuntu)</td>
+<td>NWChem</td><td>6.3, Ubuntu</td>
 <td>8.7</td>
 <td>20</td>
 <td>0.4</td>
@@ -58,7 +58,7 @@ Eric Berquist's results
 <td>0.07435021</td>
 </tr>
 <tr>
-<td>ORCA (2.9.1)</td>
+<td>ORCA</td><td>2.9.1</td>
 <td>13</td>
 <td>13</td>
 <td>1.0</td>
@@ -67,7 +67,7 @@ Eric Berquist's results
 <td>0.074344</td>
 </tr>
 <tr>
-<td>ORCA (3.0.1)</td>
+<td>ORCA</td><td>3.0.1</td>
 <td>11</td>
 <td>12</td>
 <td>0.9</td>
@@ -76,7 +76,7 @@ Eric Berquist's results
 <td>0.074344</td>
 </tr>
 <tr>
-<td>Q-Chem (4.1.0.1, compiled)</td>
+<td>Q-Chem</td><td>4.1.0.1, compiled</td>
 <td>2.6</td>
 <td>14</td>
 <td>0.2</td>
@@ -89,7 +89,7 @@ Eric Berquist's results
 ### B3LYP
 <table>
 <tr>
-<th>QM Package</th>
+<th>QM Package</th><th>Version</th>
 <th>Time (min)</th>
 <th>Steps</th>
 <th>per step</th>
@@ -98,7 +98,7 @@ Eric Berquist's results
 <th>LUMO</th>
 </tr>
 <tr>
-<td>DALTON (2013.0)</td>
+<td>DALTON</td><td>2013.0</td>
 <td>42.6</td>
 <td>20</td>
 <td>2.1</td>
@@ -107,7 +107,7 @@ Eric Berquist's results
 <td>-0.06441321</td>
 </tr>
 <tr>
-<td>MPQC (2.3.1, Ubuntu)</td>
+<td>MPQC</td><td>2.3.1, Ubuntu</td>
 <td>143.8</td>
 <td>25</td>
 <td>5.8</td>
@@ -116,7 +116,7 @@ Eric Berquist's results
 <td>-0.064391</td>
 </tr>
 <tr>
-<td>NWChem (6.3, Ubuntu)</td>
+<td>NWChem</td><td>6.3, Ubuntu</td>
 <td>26</td>
 <td>27</td>
 <td>1.0</td>
@@ -125,7 +125,7 @@ Eric Berquist's results
 <td>-0.06439253</td>
 </tr>
 <tr>
-<td>ORCA (2.9.1)</td>
+<td>ORCA</td><td>2.9.1</td>
 <td>18</td>
 <td>14</td>
 <td>1.3</td>
@@ -134,7 +134,7 @@ Eric Berquist's results
 <td>-0.064412</td>
 </tr>
 <tr>
-<td>ORCA (3.0.1)</td>
+<td>ORCA</td><td>3.0.1</td>
 <td>14.5</td>
 <td>13</td>
 <td>1.1</td>
@@ -143,7 +143,7 @@ Eric Berquist's results
 <td>-0.064445</td>
 </tr>
 <tr>
-<td>Q-Chem (4.1.0.1, compiled)</td>
+<td>Q-Chem</td><td>4.1.0.1, compiled</td>
 <td>4.8</td>
 <td>14</td>
 <td>0.3</td>
