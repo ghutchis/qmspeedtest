@@ -39,6 +39,7 @@ Eric Berquist's results
 <td>-0.35364477</td>
 <td>0.07433447</td>
 </tr>
+<tr>
 <th>GAMESS</th><th>2013-05-01</th>
 <th>10.8</th>
 <th>30</th>
@@ -47,7 +48,6 @@ Eric Berquist's results
 <th>-0.3536</th>
 <th>0.0744</th>
 </tr>
-</table>
 <tr>
 <td>NWChem</td><td>6.1.1</td>
 <td></td>
@@ -115,6 +115,7 @@ Eric Berquist's results
 <td>-0.35364477</td>
 <td>0.07433447</td>
 </tr>
+<tr>
 <th>GAMESS</th><th>2013-05-01</th>
 <th></th>
 <th></th>
@@ -123,7 +124,6 @@ Eric Berquist's results
 <th></th>
 <th></th>
 </tr>
-</table>
 <tr>
 <td>NWChem</td><td>6.1.1</td>
 <td></td>
