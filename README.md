@@ -15,6 +15,162 @@ Please fork the [original repo](http://github.com/baoilleach/qmspeedtest) and su
 Eric Berquist's results
 ----------------------
 
+**Machine:** AMD Opteron(tm) Processor 6172 [Magny Cours] @ 2.10 GHz running 64-bit RHEL 6
+
+**Fancy compiler or maths libraries used when compiling:** Intel compilers w/ MKL (various versions)
+
+### HF
+<table>
+<tr>
+<th>QM Package</th><th>Version</th>
+<th>Time (min)</th>
+<th>Steps</th>
+<th>per step</th>
+<th>Total E</th>
+<th>HOMO</th>
+<th>LUMO</th>
+</tr>
+<tr>
+<td>DALTON</td><td>2013.2</td>
+<td>26.8</td>
+<td>19</td>
+<td>1.41</td>
+<td>-644.675706212821</td>
+<td>-0.35364477</td>
+<td>0.07433447</td>
+</tr>
+<th>GAMESS</th><th>2013-05-01</th>
+<th>10.8</th>
+<th>30</th>
+<th>0.36</th>
+<th>-644.6757056212</th>
+<th>-0.3536</th>
+<th>0.0744</th>
+</tr>
+</table>
+<tr>
+<td>NWChem</td><td>6.1.1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ORCA</td><td>2.9.1</td>
+<td>28.6</td>
+<td>13</td>
+<td>2.20</td>
+<td>-644.675706036271</td>
+<td>-0.353622</td>
+<td>0.074344</td>
+</tr>
+<tr>
+<td>ORCA</td><td>3.0.1</td>
+<td>11</td>
+<td>12</td>
+<td>0.9</td>
+<td>-644.675706036270</td>
+<td>-0.353622</td>
+<td>0.074344</td>
+</tr>
+<tr>
+<td>Q-Chem</td><td>4.1.0.1</td>
+<td>6.1</td>
+<td>14</td>
+<td>0.43</td>
+<td>-644.675706161474</td>
+<td>-0.354</td>
+<td>0.074</td>
+</tr>
+<tr>
+<th>TURBOMOLE</th><th>6.5</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</table>
+
+### B3LYP
+<table>
+<tr>
+<th>QM Package</th><th>Version</th>
+<th>Time (min)</th>
+<th>Steps</th>
+<th>per step</th>
+<th>Total E</th>
+<th>HOMO</th>
+<th>LUMO</th>
+</tr>
+<tr>
+<td>DALTON</td><td>2013.2</td>
+<td>26.8</td>
+<td>19</td>
+<td>1.41</td>
+<td>-644.675706212821</td>
+<td>-0.35364477</td>
+<td>0.07433447</td>
+</tr>
+<th>GAMESS</th><th>2013-05-01</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</table>
+<tr>
+<td>NWChem</td><td>6.1.1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ORCA</td><td>2.9.1</td>
+<td>39.3</td>
+<td>14</td>
+<td>2.81</td>
+<td>-648.495621346673</td>
+<td>-0.260530</td>
+<td>-0.064412</td>
+</tr>
+<tr>
+<td>ORCA</td><td>3.0.1</td>
+<td>33.7</td>
+<td>13</td>
+<td>2.59</td>
+<td>-648.495620645754</td>
+<td>-0.260533</td>
+<td>-0.064445</td>
+</tr>
+<tr>
+<td>Q-Chem</td><td>4.1.0.1</td>
+<td>12.5</td>
+<td>14</td>
+<td>0.89</td>
+<td>-648.495723730569</td>
+<td>-0.260</td>
+<td>-0.064</td>
+</tr>
+<tr>
+<th>TURBOMOLE</th><th>6.5</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</table>
+
 **Machine:** Intel(R) Xeon E5-1620(R) @ 3.60 GHz running 64-bit Ubuntu 13.10
 
 **Fancy compiler or maths libraries used when compiling:** Intel Parallel Studio XE 2013 SP1 (Compiler v14.0.1/MKL v11.1.1)

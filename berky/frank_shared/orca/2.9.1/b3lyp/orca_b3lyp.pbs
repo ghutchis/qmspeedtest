@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#PBS -N orca_b3lyp
+#PBS -q shared
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=144:00:00
+#PBS -j oe
+#PBS -l qos=low
+
+module purge
+module load openmpi/1.4.5-gcc45
+module load orca/2.9.1
+
+cp $PBS_O_WORKDIR/b3lyp.inp $LOCAL
+cp $PBS_O_WORKDIR/atoms.xyz $LOCAL
+cd $LOCAL
+
+run_on_exit() {
+    set -v
+    cp $LOCAL/* $PBS_O_WORKDIR
+}
+
+trap run_on_exit EXIT
+
+$(which orca) b3lyp.inp >& $PBS_O_WORKDIR/b3lyp.out

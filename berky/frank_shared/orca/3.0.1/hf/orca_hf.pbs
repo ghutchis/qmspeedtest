@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#PBS -N orca_hf
+#PBS -q shared
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=144:00:00
+#PBS -j oe
+#PBS -l qos=low
+
+module purge
+module load intel/2011.12
+module load openmpi/1.6.5-intel12
+module load orca/3.0.1
+
+cp $PBS_O_WORKDIR/hf.inp $LOCAL
+cp $PBS_O_WORKDIR/atoms.xyz $LOCAL
+cd $LOCAL
+
+run_on_exit() {
+    set -v
+    cp $LOCAL/* $PBS_O_WORKDIR
+}
+
+trap run_on_exit EXIT
+
+$(which orca) hf.inp >& $PBS_O_WORKDIR/hf.out
