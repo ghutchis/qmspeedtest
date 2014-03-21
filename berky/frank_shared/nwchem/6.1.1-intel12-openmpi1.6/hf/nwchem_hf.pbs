@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#PBS -N nwchem_hf
+#PBS -q shared
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=144:00:00
+#PBS -j oe
+#PBS -l qos=low
+
+module purge
+module load nwchem/6.1.1-intel12-openmpi1.6
+
+cp $PBS_O_WORKDIR/hf.nw $LOCAL
+cd $LOCAL
+
+run_on_exit() {
+    set -v
+    cp $LOCAL/* $PBS_O_WORKDIR
+}
+
+trap run_on_exit EXIT
+
+$(which nwchem) hf.nw >& $PBS_O_WORKDIR/hf.nwo

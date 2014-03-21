@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#PBS -N nwchem_b3lyp
+#PBS -q shared
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=144:00:00
+#PBS -j oe
+#PBS -l qos=low
+
+module purge
+module load nwchem/6.1.1-intel12-openmpi1.6
+
+cp $PBS_O_WORKDIR/b3lyp.nw $LOCAL
+cd $LOCAL
+
+run_on_exit() {
+    set -v
+    cp $LOCAL/* $PBS_O_WORKDIR
+}
+
+trap run_on_exit EXIT
+
+$(which nwchem) b3lyp.nw >& $PBS_O_WORKDIR/b3lyp.nwo
