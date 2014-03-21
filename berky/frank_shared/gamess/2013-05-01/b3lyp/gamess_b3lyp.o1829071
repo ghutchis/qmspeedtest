@@ -1,0 +1,20 @@
++---------------------------------------------------------------------+
+|                        JOB INFORMATION                              |
++---------------------------------------------------------------------+
+|
+|  Date      : Thu Mar 20 13:28:38 EDT 2014
+|  Job ID    : 1829071.clusman0.localdomain
+|  Username  : erb74
+|  Group     : dlambrecht
+|  Job Name  : gamess_b3lyp
+|  Session   : 10508
+|  Limits    : neednodes=1:ppn=1,nodes=1:ppn=1,pmem=2666mb,walltime=144:00:00
+|  Resources : cput=05:04:03,mem=103380kb,vmem=3348844kb,walltime=02:32:18
+|  Disk      : 
+|  Queue     : ishared
+|  Account   : 
+|  Exit code : 0
+|  Local scr : /scratch/1829071.clusman0.localdomain
+|  Node/cores: 7/1 
+|
+[---------------------------------------------------------------------]
