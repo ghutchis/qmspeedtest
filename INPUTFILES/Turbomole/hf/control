@@ -1,7 +1,7 @@
-$operating system unix
 $title
-aspirin
+$operating system unix
 $symmetry c1
+$redundant    file=coord
 $coord    file=coord
 $user-defined bonds    file=coord
 $atoms
@@ -44,8 +44,9 @@ $interconversion  off
    qconv=1.d-7
    maxiter=25
 $optimize
-   internal   off
-   cartesian  on
+   internal   on
+   redundant  on
+   cartesian  off
    global     off
    basis      off   logarithm
 $coordinateupdate
