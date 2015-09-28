@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+#PBS -N orca_b3lyp
+#PBS -q shared
+#PBS -l nodes=1:ppn=48
+#PBS -l walltime=48:00:00
+#PBS -j oe
+#PBS -m abe
+#PBS -M erb74@pitt.edu
+
+set -x
+
+module purge
+module load orca/3.0.3
+
+cp $PBS_O_WORKDIR/b3lyp.in $LOCAL
+cp $PBS_O_WORKDIR/atoms.xyz $LOCAL
+cd $LOCAL
+
+run_on_exit() {
+    set -v
+    cp -R $LOCAL/* $PBS_O_WORKDIR
+}
+
+trap run_on_exit EXIT
+
+`which orca` b3lyp.in >& $PBS_O_WORKDIR/b3lyp.out

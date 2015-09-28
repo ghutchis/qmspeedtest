@@ -1,0 +1,148 @@
++ module purge
+++ /opt/sam/Modules/3.2.6/bin/modulecmd bash purge
++ eval CPATH=/opt/sam/slash2/build/include ';export' 'CPATH;CPLUS_INCLUDE_PATH=/opt/sam/slash2/build/include' ';export' 'CPLUS_INCLUDE_PATH;C_INCLUDE_PATH=/opt/sam/slash2/build/include' ';export' 'C_INCLUDE_PATH;GOLD_HOME=/opt/sam/mam8/pro' ';export' 'GOLD_HOME;LD_LIBRARY_PATH=/opt/sam/slash2/build/lib:/home/dlambrecht/erb74/opt/lib' ';export' 'LD_LIBRARY_PATH;MANPATH=/usr/man:/opt/sam/slash2/build/man' ';export' 'MANPATH;MOABHOMEDIR=/opt/sam/moab/pro8' ';export' 'MOABHOMEDIR;MODULEPATH=/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/\$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:' ';export' 'MODULEPATH;PATH=/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/bin:/opt/sam/slash2/build/sbin' ';export' 'PATH;PBS_DEFAULT=clusman0a.frank.sam.pitt.edu' ';export' 'PBS_DEFAULT;PYTHONPATH=/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/development/pyqchem:/home/dlambrecht/erb74/development/piratechem:/home/dlambrecht/erb74/development/mbe:/home/dlambrecht/erb74:' ';export' 'PYTHONPATH;unset' 'CMAKE_INCLUDE_PATH;unset' 'CMAKE_LIBRARY_PATH;unset' 'CMAKE_PREFIX_PATH;unset' 'EMACS_ROOT;unset' 'INCLUDE;unset' 'INTEL_LICENSE_FILE;unset' 'INTEL_ROOT;unset' 'LANG;unset' 'LD_RUN_PATH;unset' 'LIBRARY_PATH;unset' 'LOADEDMODULES;unset' 'MKLROOT;unset' 'MKL_ROOT;unset' 'MODULESHOME;unset' 'MPI_ROOT;unset' 'NLSPATH;unset' 'OPENBABEL_ROOT;unset' 'OPENMPI_ROOT;unset' 'PKG_CONFIG_PATH;unset' 'SAMWRAP_CC;unset' 'SAMWRAP_CC_FLAGS;unset' 'SAMWRAP_CC_LDFLAGS;unset' 'SAMWRAP_CXX;unset' 'SAMWRAP_CXX_FLAGS;unset' 'SAMWRAP_CXX_LDFLAGS;unset' 'SAMWRAP_FC;unset' 'SAMWRAP_FC_FLAGS;unset' 'SAMWRAP_FC_LDFLAGS;unset' 'SAMWRAP_FLAGS;unset' 'SAMWRAP_LDFLAGS;unset' 'SAMWRAP_PRUN;unset' '_LMFILES_;'
+++ CPATH=/opt/sam/slash2/build/include
+++ export CPATH
+++ CPLUS_INCLUDE_PATH=/opt/sam/slash2/build/include
+++ export CPLUS_INCLUDE_PATH
+++ C_INCLUDE_PATH=/opt/sam/slash2/build/include
+++ export C_INCLUDE_PATH
+++ GOLD_HOME=/opt/sam/mam8/pro
+++ export GOLD_HOME
+++ LD_LIBRARY_PATH=/opt/sam/slash2/build/lib:/home/dlambrecht/erb74/opt/lib
+++ export LD_LIBRARY_PATH
+++ MANPATH=/usr/man:/opt/sam/slash2/build/man
+++ export MANPATH
+++ MOABHOMEDIR=/opt/sam/moab/pro8
+++ export MOABHOMEDIR
+++ MODULEPATH='/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:'
+++ export MODULEPATH
+++ PATH=/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/bin:/opt/sam/slash2/build/sbin
+++ export PATH
+++ PBS_DEFAULT=clusman0a.frank.sam.pitt.edu
+++ export PBS_DEFAULT
+++ PYTHONPATH=/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/development/pyqchem:/home/dlambrecht/erb74/development/piratechem:/home/dlambrecht/erb74/development/mbe:/home/dlambrecht/erb74:
+++ export PYTHONPATH
+++ unset CMAKE_INCLUDE_PATH
+++ unset CMAKE_LIBRARY_PATH
+++ unset CMAKE_PREFIX_PATH
+++ unset EMACS_ROOT
+++ unset INCLUDE
+++ unset INTEL_LICENSE_FILE
+++ unset INTEL_ROOT
+++ unset LANG
+++ unset LD_RUN_PATH
+++ unset LIBRARY_PATH
+++ unset LOADEDMODULES
+++ unset MKLROOT
+++ unset MKL_ROOT
+++ unset MODULESHOME
+++ unset MPI_ROOT
+++ unset NLSPATH
+++ unset OPENBABEL_ROOT
+++ unset OPENMPI_ROOT
+++ unset PKG_CONFIG_PATH
+++ unset SAMWRAP_CC
+++ unset SAMWRAP_CC_FLAGS
+++ unset SAMWRAP_CC_LDFLAGS
+++ unset SAMWRAP_CXX
+++ unset SAMWRAP_CXX_FLAGS
+++ unset SAMWRAP_CXX_LDFLAGS
+++ unset SAMWRAP_FC
+++ unset SAMWRAP_FC_FLAGS
+++ unset SAMWRAP_FC_LDFLAGS
+++ unset SAMWRAP_FLAGS
+++ unset SAMWRAP_LDFLAGS
+++ unset SAMWRAP_PRUN
+++ unset _LMFILES_
++ module load qchem/4.3-trunk.20150505.omp.release
+++ /opt/sam/Modules/3.2.6/bin/modulecmd bash load qchem/4.3-trunk.20150505.omp.release
++ eval CMAKE_INCLUDE_PATH=/opt/sam/intel/composer_xe_2015.1.133/tbb/include ';export' 'CMAKE_INCLUDE_PATH;CMAKE_LIBRARY_PATH=/opt/sam/intel/composer_xe_2015.1.133/tbb/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/mkl/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/lib/intel64' ';export' 'CMAKE_LIBRARY_PATH;CMAKE_PREFIX_PATH=/opt/sam/sys/usr:/opt/sam/sys' ';export' 'CMAKE_PREFIX_PATH;CPATH=/opt/sam/intel/composer_xe_2015.1.133/mkl/include:/opt/sam/intel/composer_xe_2015.1.133/tbb/include:/opt/sam/sys/include:/opt/sam/slash2/build/include' ';export' 'CPATH;INTEL_LICENSE_FILE=/opt/sam/intel/licenses' ';export' 'INTEL_LICENSE_FILE;INTEL_ROOT=/opt/sam/intel/composer_xe_2015.1.133' ';export' 'INTEL_ROOT;IPPROOT=/opt/sam/intel/composer_xe_2015.1.133/ipp' ';export' 'IPPROOT;LD_LIBRARY_PATH=/opt/sam/intel/composer_xe_2015.1.133/mkl/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/tbb/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/ipp/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64:/opt/sam/slash2/build/lib:/home/dlambrecht/erb74/opt/lib' ';export' 'LD_LIBRARY_PATH;LD_RUN_PATH=/opt/sam/sys/lib:/opt/sam/sys/lib64' ';export' 'LD_RUN_PATH;LIBRARY_PATH=/opt/sam/intel/composer_xe_2015.1.133/compiler/tbb/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/compiler/mkl/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/compiler/ibb/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64' ';export' 'LIBRARY_PATH;LOADEDMODULES=modules:sys:intel/2015.1.133:qchem/4.3-trunk.20150505.omp.release' ';export' 'LOADEDMODULES;MANPATH=/opt/sam/intel/composer_xe_2015.1.133/man/en_US:/opt/sam/Modules/3.2.6/man:/usr/man:/opt/sam/slash2/build/man' ';export' 'MANPATH;MIC_LD_LIBRARY_PATH=/opt/sam/intel/composer_xe_2015.1.133/mkl/lib/mic:/opt/sam/intel/composer_xe_2015.1.133/tbb/lib/mic:/opt/sam/intel/composer_xe_2015.1.133/compiler/lib/mic' ';export' 'MIC_LD_LIBRARY_PATH;MKLROOT=/opt/sam/intel/composer_xe_2015.1.133/mkl' ';export' 'MKLROOT;MODULEPATH=/opt/sam/Modules/versions:/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/\$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:' ';export' 'MODULEPATH;MODULESHOME=/opt/sam/Modules/3.2.6' ';export' 'MODULESHOME;NLSPATH=/opt/sam/intel/composer_xe_2015.1.133/mkl/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2015.1.133/debugger/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2015.1.133/ipp/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2015.1.133/compiler/lib/intel64/locale/%l_%t/%N' ';export' 'NLSPATH;PATH=/home/dlambrecht/software/qchem43.trunk.20150505.omp.release/bin:/opt/sam/intel/composer_xe_2015.1.133/debugger/gui/intel64:/opt/sam/intel/composer_xe_2015.1.133/bin/intel64:/opt/sam/sys/bin:/opt/sam/Modules/3.2.6/bin:/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/bin:/opt/sam/slash2/build/sbin' ';export' 'PATH;QC=/home/dlambrecht/software/qchem43.trunk.20150505.omp.release' ';export' 'QC;QCAUX=/home/dlambrecht/software/qchem43.trunk.20150505.omp.release/../qcaux4' ';export' 'QCAUX;QCSCRATCH=/scratch/3126470.clusman0a.frank.sam.pitt.edu' ';export' 'QCSCRATCH;SAMWRAP_CC=icc' ';export' 'SAMWRAP_CC;SAMWRAP_CXX=icpc' ';export' 'SAMWRAP_CXX;SAMWRAP_FC=ifort' ';export' 'SAMWRAP_FC;SAMWRAP_FC_FLAGS=-reentrancy\' threaded ';export' 'SAMWRAP_FC_FLAGS;SAMWRAP_FC_LDFLAGS=-reentrancy\' threaded ';export' 'SAMWRAP_FC_LDFLAGS;TBBROOT=/opt/sam/intel/composer_xe_2015.1.133/tbb' ';export' 'TBBROOT;_LMFILES_=/opt/sam/Modules/3.2.6/modulefiles/modules:/opt/sam/modulefiles/sys:/opt/sam/modulefiles/intel/2015.1.133:/home/dlambrecht/software/modules/qchem/4.3-trunk.20150505.omp.release' ';export' '_LMFILES_;'
+++ CMAKE_INCLUDE_PATH=/opt/sam/intel/composer_xe_2015.1.133/tbb/include
+++ export CMAKE_INCLUDE_PATH
+++ CMAKE_LIBRARY_PATH=/opt/sam/intel/composer_xe_2015.1.133/tbb/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/mkl/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/lib/intel64
+++ export CMAKE_LIBRARY_PATH
+++ CMAKE_PREFIX_PATH=/opt/sam/sys/usr:/opt/sam/sys
+++ export CMAKE_PREFIX_PATH
+++ CPATH=/opt/sam/intel/composer_xe_2015.1.133/mkl/include:/opt/sam/intel/composer_xe_2015.1.133/tbb/include:/opt/sam/sys/include:/opt/sam/slash2/build/include
+++ export CPATH
+++ INTEL_LICENSE_FILE=/opt/sam/intel/licenses
+++ export INTEL_LICENSE_FILE
+++ INTEL_ROOT=/opt/sam/intel/composer_xe_2015.1.133
+++ export INTEL_ROOT
+++ IPPROOT=/opt/sam/intel/composer_xe_2015.1.133/ipp
+++ export IPPROOT
+++ LD_LIBRARY_PATH=/opt/sam/intel/composer_xe_2015.1.133/mkl/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/tbb/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/ipp/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64:/opt/sam/slash2/build/lib:/home/dlambrecht/erb74/opt/lib
+++ export LD_LIBRARY_PATH
+++ LD_RUN_PATH=/opt/sam/sys/lib:/opt/sam/sys/lib64
+++ export LD_RUN_PATH
+++ LIBRARY_PATH=/opt/sam/intel/composer_xe_2015.1.133/compiler/tbb/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/compiler/mkl/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/compiler/ibb/lib/intel64:/opt/sam/intel/composer_xe_2015.1.133/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64
+++ export LIBRARY_PATH
+++ LOADEDMODULES=modules:sys:intel/2015.1.133:qchem/4.3-trunk.20150505.omp.release
+++ export LOADEDMODULES
+++ MANPATH=/opt/sam/intel/composer_xe_2015.1.133/man/en_US:/opt/sam/Modules/3.2.6/man:/usr/man:/opt/sam/slash2/build/man
+++ export MANPATH
+++ MIC_LD_LIBRARY_PATH=/opt/sam/intel/composer_xe_2015.1.133/mkl/lib/mic:/opt/sam/intel/composer_xe_2015.1.133/tbb/lib/mic:/opt/sam/intel/composer_xe_2015.1.133/compiler/lib/mic
+++ export MIC_LD_LIBRARY_PATH
+++ MKLROOT=/opt/sam/intel/composer_xe_2015.1.133/mkl
+++ export MKLROOT
+++ MODULEPATH='/opt/sam/Modules/versions:/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:'
+++ export MODULEPATH
+++ MODULESHOME=/opt/sam/Modules/3.2.6
+++ export MODULESHOME
+++ NLSPATH=/opt/sam/intel/composer_xe_2015.1.133/mkl/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2015.1.133/debugger/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2015.1.133/ipp/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2015.1.133/compiler/lib/intel64/locale/%l_%t/%N
+++ export NLSPATH
+++ PATH=/home/dlambrecht/software/qchem43.trunk.20150505.omp.release/bin:/opt/sam/intel/composer_xe_2015.1.133/debugger/gui/intel64:/opt/sam/intel/composer_xe_2015.1.133/bin/intel64:/opt/sam/sys/bin:/opt/sam/Modules/3.2.6/bin:/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/bin:/opt/sam/slash2/build/sbin
+++ export PATH
+++ QC=/home/dlambrecht/software/qchem43.trunk.20150505.omp.release
+++ export QC
+++ QCAUX=/home/dlambrecht/software/qchem43.trunk.20150505.omp.release/../qcaux4
+++ export QCAUX
+++ QCSCRATCH=/scratch/3126470.clusman0a.frank.sam.pitt.edu
+++ export QCSCRATCH
+++ SAMWRAP_CC=icc
+++ export SAMWRAP_CC
+++ SAMWRAP_CXX=icpc
+++ export SAMWRAP_CXX
+++ SAMWRAP_FC=ifort
+++ export SAMWRAP_FC
+++ SAMWRAP_FC_FLAGS='-reentrancy threaded'
+++ export SAMWRAP_FC_FLAGS
+++ SAMWRAP_FC_LDFLAGS='-reentrancy threaded'
+++ export SAMWRAP_FC_LDFLAGS
+++ TBBROOT=/opt/sam/intel/composer_xe_2015.1.133/tbb
+++ export TBBROOT
+++ _LMFILES_=/opt/sam/Modules/3.2.6/modulefiles/modules:/opt/sam/modulefiles/sys:/opt/sam/modulefiles/intel/2015.1.133:/home/dlambrecht/software/modules/qchem/4.3-trunk.20150505.omp.release
+++ export _LMFILES_
++ cp /home/dlambrecht/erb74/development/qmspeedtest/berquist/frank_shared/qchem/qchem43.trunk.20150505.omp.release/b3lyp/b3lyp.in /scratch/3126470.clusman0a.frank.sam.pitt.edu
++ cd /scratch/3126470.clusman0a.frank.sam.pitt.edu
++ trap run_on_exit EXIT
+++ which qchem
++ /home/dlambrecht/software/qchem43.trunk.20150505.omp.release/bin/qchem -nt 1 b3lyp.in /home/dlambrecht/erb74/development/qmspeedtest/berquist/frank_shared/qchem/qchem43.trunk.20150505.omp.release/b3lyp/b3lyp.out
+This is a multi-thread run using 1 threads
+/home/dlambrecht/software/qchem43.trunk.20150505.omp.release/exe/qcprog.exe .b3lyp.in.74201.qcin.1 /scratch/3126470.clusman0a.frank.sam.pitt.edu/qchem74201/
++ run_on_exit
++ rm /scratch/3126470.clusman0a.frank.sam.pitt.edu/pathtable
++ cp -v -R /scratch/3126470.clusman0a.frank.sam.pitt.edu/b3lyp.in /home/dlambrecht/erb74/development/qmspeedtest/berquist/frank_shared/qchem/qchem43.trunk.20150505.omp.release/b3lyp
+`/scratch/3126470.clusman0a.frank.sam.pitt.edu/b3lyp.in' -> `/home/dlambrecht/erb74/development/qmspeedtest/berquist/frank_shared/qchem/qchem43.trunk.20150505.omp.release/b3lyp/b3lyp.in'
+trying to remove /scratch/3126470.clusman0a.frank.sam.pitt.edu
++---------------------------------------------------------------------+
+|                        JOB INFORMATION                              |
++---------------------------------------------------------------------+
+|
+|  Date      : Sun Sep 20 21:16:19 EDT 2015
+|  Job ID    : 3126470.clusman0a.frank.sam.pitt.edu
+|  Username  : erb74
+|  Group     : dlambrecht
+|  Job Name  : qchem_b3lyp
+|  Session   : 73757
+|  Limits    : neednodes=1:ppn=48,nodes=1:ppn=48,pmem=2666mb,walltime=24:00:00
+|  Resources : cput=00:10:21,energy_used=0,mem=166800kb,vmem=642248kb,walltime=00:11:04
+|  Disk      : 8.0K
+|  Queue     : ishared
+|  Account   : 
+|  Exit code : 0
+|  Local scr : /scratch/3126470.clusman0a.frank.sam.pitt.edu
+|  Node/cores: 52/48 
+|
+[---------------------------------------------------------------------]

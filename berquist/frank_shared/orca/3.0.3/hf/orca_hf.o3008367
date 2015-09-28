@@ -1,0 +1,153 @@
++ module purge
+++ /opt/sam/Modules/3.2.6/bin/modulecmd bash purge
++ eval GOLD_HOME=/opt/sam/mam8/pro ';export' 'GOLD_HOME;LD_LIBRARY_PATH=/home/dlambrecht/erb74/opt/lib' ';export' 'LD_LIBRARY_PATH;MANPATH=/usr/man' ';export' 'MANPATH;MOABHOMEDIR=/opt/sam/moab/pro8' ';export' 'MOABHOMEDIR;MODULEPATH=/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/\$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:' ';export' 'MODULEPATH;PATH=/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/psc/bin:/opt/sam/slash2/build/psc/sbin' ';export' 'PATH;PBS_DEFAULT=clusman0a.frank.sam.pitt.edu' ';export' 'PBS_DEFAULT;PYTHONPATH=/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/development/pyqchem:/home/dlambrecht/erb74/development/piratechem:/home/dlambrecht/erb74/development/mbe:/home/dlambrecht/erb74:' ';export' 'PYTHONPATH;unset' 'CMAKE_INCLUDE_PATH;unset' 'CMAKE_LIBRARY_PATH;unset' 'CMAKE_PREFIX_PATH;unset' 'CPATH;unset' 'CPLUS_INCLUDE_PATH;unset' 'C_INCLUDE_PATH;unset' 'EMACS_ROOT;unset' 'INCLUDE;unset' 'INTEL_LICENSE_FILE;unset' 'INTEL_ROOT;unset' 'LANG;unset' 'LD_RUN_PATH;unset' 'LIBRARY_PATH;unset' 'LOADEDMODULES;unset' 'MKLROOT;unset' 'MKL_ROOT;unset' 'MODULESHOME;unset' 'MPI_ROOT;unset' 'NLSPATH;unset' 'OPENBABEL_ROOT;unset' 'OPENMPI_ROOT;unset' 'PKG_CONFIG_PATH;unset' 'SAMWRAP_CC;unset' 'SAMWRAP_CC_FLAGS;unset' 'SAMWRAP_CC_LDFLAGS;unset' 'SAMWRAP_CXX;unset' 'SAMWRAP_CXX_FLAGS;unset' 'SAMWRAP_CXX_LDFLAGS;unset' 'SAMWRAP_FC;unset' 'SAMWRAP_FC_FLAGS;unset' 'SAMWRAP_FC_LDFLAGS;unset' 'SAMWRAP_FLAGS;unset' 'SAMWRAP_LDFLAGS;unset' 'SAMWRAP_PRUN;unset' '_LMFILES_;'
+++ GOLD_HOME=/opt/sam/mam8/pro
+++ export GOLD_HOME
+++ LD_LIBRARY_PATH=/home/dlambrecht/erb74/opt/lib
+++ export LD_LIBRARY_PATH
+++ MANPATH=/usr/man
+++ export MANPATH
+++ MOABHOMEDIR=/opt/sam/moab/pro8
+++ export MOABHOMEDIR
+++ MODULEPATH='/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:'
+++ export MODULEPATH
+++ PATH=/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/psc/bin:/opt/sam/slash2/build/psc/sbin
+++ export PATH
+++ PBS_DEFAULT=clusman0a.frank.sam.pitt.edu
+++ export PBS_DEFAULT
+++ PYTHONPATH=/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/development/pyqchem:/home/dlambrecht/erb74/development/piratechem:/home/dlambrecht/erb74/development/mbe:/home/dlambrecht/erb74:
+++ export PYTHONPATH
+++ unset CMAKE_INCLUDE_PATH
+++ unset CMAKE_LIBRARY_PATH
+++ unset CMAKE_PREFIX_PATH
+++ unset CPATH
+++ unset CPLUS_INCLUDE_PATH
+++ unset C_INCLUDE_PATH
+++ unset EMACS_ROOT
+++ unset INCLUDE
+++ unset INTEL_LICENSE_FILE
+++ unset INTEL_ROOT
+++ unset LANG
+++ unset LD_RUN_PATH
+++ unset LIBRARY_PATH
+++ unset LOADEDMODULES
+++ unset MKLROOT
+++ unset MKL_ROOT
+++ unset MODULESHOME
+++ unset MPI_ROOT
+++ unset NLSPATH
+++ unset OPENBABEL_ROOT
+++ unset OPENMPI_ROOT
+++ unset PKG_CONFIG_PATH
+++ unset SAMWRAP_CC
+++ unset SAMWRAP_CC_FLAGS
+++ unset SAMWRAP_CC_LDFLAGS
+++ unset SAMWRAP_CXX
+++ unset SAMWRAP_CXX_FLAGS
+++ unset SAMWRAP_CXX_LDFLAGS
+++ unset SAMWRAP_FC
+++ unset SAMWRAP_FC_FLAGS
+++ unset SAMWRAP_FC_LDFLAGS
+++ unset SAMWRAP_FLAGS
+++ unset SAMWRAP_LDFLAGS
+++ unset SAMWRAP_PRUN
+++ unset _LMFILES_
++ module load orca/3.0.3
+++ /opt/sam/Modules/3.2.6/bin/modulecmd bash load orca/3.0.3
++ eval CMAKE_INCLUDE_PATH=/opt/sam/intel/composer_xe_2013.0.079/tbb/include ';export' 'CMAKE_INCLUDE_PATH;CMAKE_LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/lib/intel64' ';export' 'CMAKE_LIBRARY_PATH;CMAKE_PREFIX_PATH=/opt/sam/openmpi/1.6.5/intel12:/opt/sam/sys/usr:/opt/sam/sys' ';export' 'CMAKE_PREFIX_PATH;CPATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/include:/opt/sam/intel/composer_xe_2013.0.079/tbb/include:/opt/sam/sys/include' ';export' 'CPATH;INTEL_LICENSE_FILE=/opt/sam/intel/licenses' ';export' 'INTEL_LICENSE_FILE;INTEL_ROOT=/opt/sam/intel/composer_xe_2013.0.079' ';export' 'INTEL_ROOT;IPPROOT=/opt/sam/intel/composer_xe_2013.0.079/ipp' ';export' 'IPPROOT;LD_LIBRARY_PATH=/opt/sam/openmpi/1.6.5/intel12/lib:/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/ipp/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64:/home/dlambrecht/erb74/opt/lib' ';export' 'LD_LIBRARY_PATH;LD_RUN_PATH=/opt/sam/sys/lib:/opt/sam/sys/lib64' ';export' 'LD_RUN_PATH;LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/compiler/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/ibb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64' ';export' 'LIBRARY_PATH;LOADEDMODULES=modules:sys:intel/2013.0:openmpi/1.6.5-intel12:orca/3.0.3' ';export' 'LOADEDMODULES;MANPATH=/opt/sam/openmpi/1.6.5/intel12/share/man:/opt/sam/intel/composer_xe_2013.0.079/man/en_US:/opt/sam/Modules/3.2.6/man:/usr/man' ';export' 'MANPATH;MIC_LD_LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/mic:/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/mic:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/mic' ';export' 'MIC_LD_LIBRARY_PATH;MKLROOT=/opt/sam/intel/composer_xe_2013.0.079/mkl' ';export' 'MKLROOT;MODULEPATH=/opt/sam/Modules/versions:/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/\$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:' ';export' 'MODULEPATH;MODULESHOME=/opt/sam/Modules/3.2.6' ';export' 'MODULESHOME;MPI_ROOT=/opt/sam/openmpi/1.6.5/intel12' ';export' 'MPI_ROOT;NLSPATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/debugger/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/ipp/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64/locale/%l_%t/%N' ';export' 'NLSPATH;OPENMPI_ROOT=/opt/sam/openmpi/1.6.5/intel12' ';export' 'OPENMPI_ROOT;ORCAHOME=/home/dlambrecht/software/orca/3.0.3' ';export' 'ORCAHOME;PATH=/home/dlambrecht/software/orca/3.0.3:/opt/sam/openmpi/1.6.5/intel12/bin:/opt/sam/intel/composer_xe_2013.0.079/debugger/gui/intel64:/opt/sam/intel/composer_xe_2013.0.079/bin/intel64:/opt/sam/sys/bin:/opt/sam/Modules/3.2.6/bin:/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/psc/bin:/opt/sam/slash2/build/psc/sbin' ';export' 'PATH;SAMWRAP_CC=icc' ';export' 'SAMWRAP_CC;SAMWRAP_CXX=icpc' ';export' 'SAMWRAP_CXX;SAMWRAP_CXX_FLAGS=-fexceptions' ';export' 'SAMWRAP_CXX_FLAGS;SAMWRAP_CXX_LDFLAGS=-lmpi_cxx' ';export' 'SAMWRAP_CXX_LDFLAGS;SAMWRAP_FC=ifort' ';export' 'SAMWRAP_FC;SAMWRAP_FC_FLAGS=-I/opt/sam/openmpi/1.6.5/intel12/lib\' '-reentrancy\' threaded ';export' 'SAMWRAP_FC_FLAGS;SAMWRAP_FC_LDFLAGS=-lmpi_f90\' '-lmpi_f77\' '-reentrancy\' threaded ';export' 'SAMWRAP_FC_LDFLAGS;SAMWRAP_FLAGS=-pthread\' -I/opt/sam/openmpi/1.6.5/intel12/include ';export' 'SAMWRAP_FLAGS;SAMWRAP_LDFLAGS=-L/opt/sam/openmpi/1.6.5/intel12/lib\' '-lmpi\' '-ldl\' '-lnuma\' '-Wl,--export-dynamic\' '-lrt\' '-lnsl\' '-lutil\' -pthread ';export' 'SAMWRAP_LDFLAGS;SAMWRAP_PRUN=openmpi.default' ';export' 'SAMWRAP_PRUN;TBBROOT=/opt/sam/intel/composer_xe_2013.0.079/tbb' ';export' 'TBBROOT;_LMFILES_=/opt/sam/Modules/3.2.6/modulefiles/modules:/opt/sam/modulefiles/sys:/opt/sam/modulefiles/intel/2013.0:/opt/sam/modulefiles/openmpi/1.6.5-intel12:/home/dlambrecht/software/modules/orca/3.0.3' ';export' '_LMFILES_;'
+++ CMAKE_INCLUDE_PATH=/opt/sam/intel/composer_xe_2013.0.079/tbb/include
+++ export CMAKE_INCLUDE_PATH
+++ CMAKE_LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/lib/intel64
+++ export CMAKE_LIBRARY_PATH
+++ CMAKE_PREFIX_PATH=/opt/sam/openmpi/1.6.5/intel12:/opt/sam/sys/usr:/opt/sam/sys
+++ export CMAKE_PREFIX_PATH
+++ CPATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/include:/opt/sam/intel/composer_xe_2013.0.079/tbb/include:/opt/sam/sys/include
+++ export CPATH
+++ INTEL_LICENSE_FILE=/opt/sam/intel/licenses
+++ export INTEL_LICENSE_FILE
+++ INTEL_ROOT=/opt/sam/intel/composer_xe_2013.0.079
+++ export INTEL_ROOT
+++ IPPROOT=/opt/sam/intel/composer_xe_2013.0.079/ipp
+++ export IPPROOT
+++ LD_LIBRARY_PATH=/opt/sam/openmpi/1.6.5/intel12/lib:/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/ipp/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64:/home/dlambrecht/erb74/opt/lib
+++ export LD_LIBRARY_PATH
+++ LD_RUN_PATH=/opt/sam/sys/lib:/opt/sam/sys/lib64
+++ export LD_RUN_PATH
+++ LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/compiler/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/ibb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64
+++ export LIBRARY_PATH
+++ LOADEDMODULES=modules:sys:intel/2013.0:openmpi/1.6.5-intel12:orca/3.0.3
+++ export LOADEDMODULES
+++ MANPATH=/opt/sam/openmpi/1.6.5/intel12/share/man:/opt/sam/intel/composer_xe_2013.0.079/man/en_US:/opt/sam/Modules/3.2.6/man:/usr/man
+++ export MANPATH
+++ MIC_LD_LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/mic:/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/mic:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/mic
+++ export MIC_LD_LIBRARY_PATH
+++ MKLROOT=/opt/sam/intel/composer_xe_2013.0.079/mkl
+++ export MKLROOT
+++ MODULEPATH='/opt/sam/Modules/versions:/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:'
+++ export MODULEPATH
+++ MODULESHOME=/opt/sam/Modules/3.2.6
+++ export MODULESHOME
+++ MPI_ROOT=/opt/sam/openmpi/1.6.5/intel12
+++ export MPI_ROOT
+++ NLSPATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/debugger/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/ipp/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64/locale/%l_%t/%N
+++ export NLSPATH
+++ OPENMPI_ROOT=/opt/sam/openmpi/1.6.5/intel12
+++ export OPENMPI_ROOT
+++ ORCAHOME=/home/dlambrecht/software/orca/3.0.3
+++ export ORCAHOME
+++ PATH=/home/dlambrecht/software/orca/3.0.3:/opt/sam/openmpi/1.6.5/intel12/bin:/opt/sam/intel/composer_xe_2013.0.079/debugger/gui/intel64:/opt/sam/intel/composer_xe_2013.0.079/bin/intel64:/opt/sam/sys/bin:/opt/sam/Modules/3.2.6/bin:/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/psc/bin:/opt/sam/slash2/build/psc/sbin
+++ export PATH
+++ SAMWRAP_CC=icc
+++ export SAMWRAP_CC
+++ SAMWRAP_CXX=icpc
+++ export SAMWRAP_CXX
+++ SAMWRAP_CXX_FLAGS=-fexceptions
+++ export SAMWRAP_CXX_FLAGS
+++ SAMWRAP_CXX_LDFLAGS=-lmpi_cxx
+++ export SAMWRAP_CXX_LDFLAGS
+++ SAMWRAP_FC=ifort
+++ export SAMWRAP_FC
+++ SAMWRAP_FC_FLAGS='-I/opt/sam/openmpi/1.6.5/intel12/lib -reentrancy threaded'
+++ export SAMWRAP_FC_FLAGS
+++ SAMWRAP_FC_LDFLAGS='-lmpi_f90 -lmpi_f77 -reentrancy threaded'
+++ export SAMWRAP_FC_LDFLAGS
+++ SAMWRAP_FLAGS='-pthread -I/opt/sam/openmpi/1.6.5/intel12/include'
+++ export SAMWRAP_FLAGS
+++ SAMWRAP_LDFLAGS='-L/opt/sam/openmpi/1.6.5/intel12/lib -lmpi -ldl -lnuma -Wl,--export-dynamic -lrt -lnsl -lutil -pthread'
+++ export SAMWRAP_LDFLAGS
+++ SAMWRAP_PRUN=openmpi.default
+++ export SAMWRAP_PRUN
+++ TBBROOT=/opt/sam/intel/composer_xe_2013.0.079/tbb
+++ export TBBROOT
+++ _LMFILES_=/opt/sam/Modules/3.2.6/modulefiles/modules:/opt/sam/modulefiles/sys:/opt/sam/modulefiles/intel/2013.0:/opt/sam/modulefiles/openmpi/1.6.5-intel12:/home/dlambrecht/software/modules/orca/3.0.3
+++ export _LMFILES_
++ cp /home/dlambrecht/erb74/development/qmspeedtest/berquist/frank_shared/orca/3.0.3/hf/hf.in /scratch/3008367.clusman0a.frank.sam.pitt.edu
++ cp /home/dlambrecht/erb74/development/qmspeedtest/berquist/frank_shared/orca/3.0.3/hf/atoms.xyz /scratch/3008367.clusman0a.frank.sam.pitt.edu
++ cd /scratch/3008367.clusman0a.frank.sam.pitt.edu
++ trap run_on_exit EXIT
+++ which orca
++ /home/dlambrecht/software/orca/3.0.3/orca hf.in
++ run_on_exit
++ set -v
++ cp -R /scratch/3008367.clusman0a.frank.sam.pitt.edu/atoms.xyz /scratch/3008367.clusman0a.frank.sam.pitt.edu/hf.engrad /scratch/3008367.clusman0a.frank.sam.pitt.edu/hf.gbw /scratch/3008367.clusman0a.frank.sam.pitt.edu/hf.in /scratch/3008367.clusman0a.frank.sam.pitt.edu/hf.opt /scratch/3008367.clusman0a.frank.sam.pitt.edu/hf.prop /scratch/3008367.clusman0a.frank.sam.pitt.edu/hf.trj /scratch/3008367.clusman0a.frank.sam.pitt.edu/hf.xyz /home/dlambrecht/erb74/development/qmspeedtest/berquist/frank_shared/orca/3.0.3/hf
+trying to remove /scratch/3008367.clusman0a.frank.sam.pitt.edu
++---------------------------------------------------------------------+
+|                        JOB INFORMATION                              |
++---------------------------------------------------------------------+
+|
+|  Date      : Mon Jul 27 06:15:52 EDT 2015
+|  Job ID    : 3008367.clusman0a.frank.sam.pitt.edu
+|  Username  : erb74
+|  Group     : dlambrecht
+|  Job Name  : orca_hf
+|  Session   : 40794
+|  Limits    : neednodes=1:ppn=48,nodes=1:ppn=48,pmem=2666mb,walltime=48:00:00
+|  Resources : cput=00:24:22,energy_used=0,mem=192196kb,vmem=525300kb,walltime=00:24:50
+|  Disk      : 488K
+|  Queue     : ishared
+|  Account   : 
+|  Exit code : 0
+|  Local scr : /scratch/3008367.clusman0a.frank.sam.pitt.edu
+|  Node/cores: 6/48 
+|
+[---------------------------------------------------------------------]

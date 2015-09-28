@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+#PBS -N qchem_hf
+#PBS -q shared
+#PBS -l nodes=1:ppn=48
+#PBS -l walltime=24:00:00
+#PBS -l qos=investor
+#PBS -j oe
+#PBS -m abe
+#PBS -M erb74@pitt.edu
+
+set -x
+
+module purge
+module load qchem/4.3-trunk.20150505.omp.release
+
+cp ${PBS_O_WORKDIR}/hf.in ${LOCAL}
+cd ${LOCAL}
+
+run_on_exit() {
+    rm ${LOCAL}/pathtable
+    cp -v -R ${LOCAL}/* ${PBS_O_WORKDIR}
+}
+
+trap run_on_exit EXIT
+
+$(which qchem) -nt 1 "hf.in" "${PBS_O_WORKDIR}/hf.out"

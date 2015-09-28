@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+#PBS -N dalton_b3lyp
+#PBS -q shared
+#PBS -l nodes=1:ppn=48
+#PBS -l walltime=24:00:00
+#PBS -j oe
+
+set -x
+
+module purge
+module load dalton/2015-i2013.0-mkl-omp
+
+cp $PBS_O_WORKDIR/b3lyp.dal $LOCAL
+cd $LOCAL
+
+run_on_exit() {
+    set -v
+    cp -R $LOCAL/dalton/DALTON_scratch_erb74/* $PBS_O_WORKDIR
+}
+
+trap run_on_exit EXIT
+
+`which dalton` -omp 1 b3lyp.dal

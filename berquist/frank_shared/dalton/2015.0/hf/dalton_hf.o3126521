@@ -1,0 +1,175 @@
++ module purge
+++ /opt/sam/Modules/3.2.6/bin/modulecmd bash purge
++ eval CPATH=/opt/sam/slash2/build/include ';export' 'CPATH;CPLUS_INCLUDE_PATH=/opt/sam/slash2/build/include' ';export' 'CPLUS_INCLUDE_PATH;C_INCLUDE_PATH=/opt/sam/slash2/build/include' ';export' 'C_INCLUDE_PATH;GOLD_HOME=/opt/sam/mam8/pro' ';export' 'GOLD_HOME;LD_LIBRARY_PATH=/opt/sam/slash2/build/lib:/home/dlambrecht/erb74/opt/lib' ';export' 'LD_LIBRARY_PATH;MANPATH=/usr/man:/opt/sam/slash2/build/man' ';export' 'MANPATH;MOABHOMEDIR=/opt/sam/moab/pro8' ';export' 'MOABHOMEDIR;MODULEPATH=/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/\$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:' ';export' 'MODULEPATH;PATH=/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/bin:/opt/sam/slash2/build/sbin' ';export' 'PATH;PBS_DEFAULT=clusman0a.frank.sam.pitt.edu' ';export' 'PBS_DEFAULT;PYTHONPATH=/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/development/pyqchem:/home/dlambrecht/erb74/development/piratechem:/home/dlambrecht/erb74/development/mbe:/home/dlambrecht/erb74:' ';export' 'PYTHONPATH;unset' 'CMAKE_INCLUDE_PATH;unset' 'CMAKE_LIBRARY_PATH;unset' 'CMAKE_PREFIX_PATH;unset' 'EMACS_ROOT;unset' 'INCLUDE;unset' 'INTEL_LICENSE_FILE;unset' 'INTEL_ROOT;unset' 'LANG;unset' 'LD_RUN_PATH;unset' 'LIBRARY_PATH;unset' 'LOADEDMODULES;unset' 'MKLROOT;unset' 'MKL_ROOT;unset' 'MODULESHOME;unset' 'MPI_ROOT;unset' 'NLSPATH;unset' 'OPENBABEL_ROOT;unset' 'OPENMPI_ROOT;unset' 'PKG_CONFIG_PATH;unset' 'SAMWRAP_CC;unset' 'SAMWRAP_CC_FLAGS;unset' 'SAMWRAP_CC_LDFLAGS;unset' 'SAMWRAP_CXX;unset' 'SAMWRAP_CXX_FLAGS;unset' 'SAMWRAP_CXX_LDFLAGS;unset' 'SAMWRAP_FC;unset' 'SAMWRAP_FC_FLAGS;unset' 'SAMWRAP_FC_LDFLAGS;unset' 'SAMWRAP_FLAGS;unset' 'SAMWRAP_LDFLAGS;unset' 'SAMWRAP_PRUN;unset' '_LMFILES_;'
+++ CPATH=/opt/sam/slash2/build/include
+++ export CPATH
+++ CPLUS_INCLUDE_PATH=/opt/sam/slash2/build/include
+++ export CPLUS_INCLUDE_PATH
+++ C_INCLUDE_PATH=/opt/sam/slash2/build/include
+++ export C_INCLUDE_PATH
+++ GOLD_HOME=/opt/sam/mam8/pro
+++ export GOLD_HOME
+++ LD_LIBRARY_PATH=/opt/sam/slash2/build/lib:/home/dlambrecht/erb74/opt/lib
+++ export LD_LIBRARY_PATH
+++ MANPATH=/usr/man:/opt/sam/slash2/build/man
+++ export MANPATH
+++ MOABHOMEDIR=/opt/sam/moab/pro8
+++ export MOABHOMEDIR
+++ MODULEPATH='/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:'
+++ export MODULEPATH
+++ PATH=/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/bin:/opt/sam/slash2/build/sbin
+++ export PATH
+++ PBS_DEFAULT=clusman0a.frank.sam.pitt.edu
+++ export PBS_DEFAULT
+++ PYTHONPATH=/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/development/pyqchem:/home/dlambrecht/erb74/development/piratechem:/home/dlambrecht/erb74/development/mbe:/home/dlambrecht/erb74:
+++ export PYTHONPATH
+++ unset CMAKE_INCLUDE_PATH
+++ unset CMAKE_LIBRARY_PATH
+++ unset CMAKE_PREFIX_PATH
+++ unset EMACS_ROOT
+++ unset INCLUDE
+++ unset INTEL_LICENSE_FILE
+++ unset INTEL_ROOT
+++ unset LANG
+++ unset LD_RUN_PATH
+++ unset LIBRARY_PATH
+++ unset LOADEDMODULES
+++ unset MKLROOT
+++ unset MKL_ROOT
+++ unset MODULESHOME
+++ unset MPI_ROOT
+++ unset NLSPATH
+++ unset OPENBABEL_ROOT
+++ unset OPENMPI_ROOT
+++ unset PKG_CONFIG_PATH
+++ unset SAMWRAP_CC
+++ unset SAMWRAP_CC_FLAGS
+++ unset SAMWRAP_CC_LDFLAGS
+++ unset SAMWRAP_CXX
+++ unset SAMWRAP_CXX_FLAGS
+++ unset SAMWRAP_CXX_LDFLAGS
+++ unset SAMWRAP_FC
+++ unset SAMWRAP_FC_FLAGS
+++ unset SAMWRAP_FC_LDFLAGS
+++ unset SAMWRAP_FLAGS
+++ unset SAMWRAP_LDFLAGS
+++ unset SAMWRAP_PRUN
+++ unset _LMFILES_
++ module load dalton/2015-i2013.0-mkl-omp
+++ /opt/sam/Modules/3.2.6/bin/modulecmd bash load dalton/2015-i2013.0-mkl-omp
++ eval CMAKE_INCLUDE_PATH=/opt/sam/intel/composer_xe_2013.0.079/tbb/include ';export' 'CMAKE_INCLUDE_PATH;CMAKE_LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/lib/intel64' ';export' 'CMAKE_LIBRARY_PATH;CMAKE_PREFIX_PATH=/opt/sam/sys/usr:/opt/sam/sys' ';export' 'CMAKE_PREFIX_PATH;CPATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/include:/opt/sam/intel/composer_xe_2013.0.079/tbb/include:/opt/sam/sys/include:/opt/sam/slash2/build/include' ';export' 'CPATH;CTEST_MAKE_NUM_PROCS=4' ';export' 'CTEST_MAKE_NUM_PROCS;DALTON_ROOT=/home/dlambrecht/erb74/opt/apps/dalton/2015-i2013.0-mkl-omp/dalton' ';export' 'DALTON_ROOT;DALTON_TMPDIR=/scratch/3126521.clusman0a.frank.sam.pitt.edu' ';export' 'DALTON_TMPDIR;INTEL_LICENSE_FILE=/opt/sam/intel/licenses' ';export' 'INTEL_LICENSE_FILE;INTEL_ROOT=/opt/sam/intel/composer_xe_2013.0.079' ';export' 'INTEL_ROOT;IPPROOT=/opt/sam/intel/composer_xe_2013.0.079/ipp' ';export' 'IPPROOT;LD_LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/ipp/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64:/opt/sam/slash2/build/lib:/home/dlambrecht/erb74/opt/lib' ';export' 'LD_LIBRARY_PATH;LD_RUN_PATH=/opt/sam/sys/lib:/opt/sam/sys/lib64' ';export' 'LD_RUN_PATH;LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/compiler/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/ibb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64' ';export' 'LIBRARY_PATH;LOADEDMODULES=modules:sys:intel/2013.0:dalton/2015-i2013.0-mkl-omp' ';export' 'LOADEDMODULES;MANPATH=/opt/sam/intel/composer_xe_2013.0.079/man/en_US:/opt/sam/Modules/3.2.6/man:/usr/man:/opt/sam/slash2/build/man' ';export' 'MANPATH;MIC_LD_LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/mic:/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/mic:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/mic' ';export' 'MIC_LD_LIBRARY_PATH;MKLROOT=/opt/sam/intel/composer_xe_2013.0.079/mkl' ';export' 'MKLROOT;MODULEPATH=/opt/sam/Modules/versions:/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/\$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:' ';export' 'MODULEPATH;MODULESHOME=/opt/sam/Modules/3.2.6' ';export' 'MODULESHOME;NLSPATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/debugger/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/ipp/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64/locale/%l_%t/%N' ';export' 'NLSPATH;PATH=/home/dlambrecht/erb74/opt/apps/dalton/2015-i2013.0-mkl-omp/dalton:/opt/sam/intel/composer_xe_2013.0.079/debugger/gui/intel64:/opt/sam/intel/composer_xe_2013.0.079/bin/intel64:/opt/sam/sys/bin:/opt/sam/Modules/3.2.6/bin:/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/bin:/opt/sam/slash2/build/sbin' ';export' 'PATH;SAMWRAP_CC=icc' ';export' 'SAMWRAP_CC;SAMWRAP_CXX=icpc' ';export' 'SAMWRAP_CXX;SAMWRAP_FC=ifort' ';export' 'SAMWRAP_FC;SAMWRAP_FC_FLAGS=-reentrancy\' threaded ';export' 'SAMWRAP_FC_FLAGS;SAMWRAP_FC_LDFLAGS=-reentrancy\' threaded ';export' 'SAMWRAP_FC_LDFLAGS;TBBROOT=/opt/sam/intel/composer_xe_2013.0.079/tbb' ';export' 'TBBROOT;_LMFILES_=/opt/sam/Modules/3.2.6/modulefiles/modules:/opt/sam/modulefiles/sys:/opt/sam/modulefiles/intel/2013.0:/home/dlambrecht/software/modules/dalton/2015-i2013.0-mkl-omp' ';export' '_LMFILES_;'
+++ CMAKE_INCLUDE_PATH=/opt/sam/intel/composer_xe_2013.0.079/tbb/include
+++ export CMAKE_INCLUDE_PATH
+++ CMAKE_LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/lib/intel64
+++ export CMAKE_LIBRARY_PATH
+++ CMAKE_PREFIX_PATH=/opt/sam/sys/usr:/opt/sam/sys
+++ export CMAKE_PREFIX_PATH
+++ CPATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/include:/opt/sam/intel/composer_xe_2013.0.079/tbb/include:/opt/sam/sys/include:/opt/sam/slash2/build/include
+++ export CPATH
+++ CTEST_MAKE_NUM_PROCS=4
+++ export CTEST_MAKE_NUM_PROCS
+++ DALTON_ROOT=/home/dlambrecht/erb74/opt/apps/dalton/2015-i2013.0-mkl-omp/dalton
+++ export DALTON_ROOT
+++ DALTON_TMPDIR=/scratch/3126521.clusman0a.frank.sam.pitt.edu
+++ export DALTON_TMPDIR
+++ INTEL_LICENSE_FILE=/opt/sam/intel/licenses
+++ export INTEL_LICENSE_FILE
+++ INTEL_ROOT=/opt/sam/intel/composer_xe_2013.0.079
+++ export INTEL_ROOT
+++ IPPROOT=/opt/sam/intel/composer_xe_2013.0.079/ipp
+++ export IPPROOT
+++ LD_LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/ipp/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64:/opt/sam/slash2/build/lib:/home/dlambrecht/erb74/opt/lib
+++ export LD_LIBRARY_PATH
+++ LD_RUN_PATH=/opt/sam/sys/lib:/opt/sam/sys/lib64
+++ export LD_RUN_PATH
+++ LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/compiler/tbb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/mkl/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/ibb/lib/intel64:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64:/opt/sam/sys/lib:/opt/sam/sys/lib64
+++ export LIBRARY_PATH
+++ LOADEDMODULES=modules:sys:intel/2013.0:dalton/2015-i2013.0-mkl-omp
+++ export LOADEDMODULES
+++ MANPATH=/opt/sam/intel/composer_xe_2013.0.079/man/en_US:/opt/sam/Modules/3.2.6/man:/usr/man:/opt/sam/slash2/build/man
+++ export MANPATH
+++ MIC_LD_LIBRARY_PATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/mic:/opt/sam/intel/composer_xe_2013.0.079/tbb/lib/mic:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/mic
+++ export MIC_LD_LIBRARY_PATH
+++ MKLROOT=/opt/sam/intel/composer_xe_2013.0.079/mkl
+++ export MKLROOT
+++ MODULEPATH='/opt/sam/Modules/versions:/home/dlambrecht/erb74/modules/frank:/home/dlambrecht/software/modules:/opt/sam/Modules/$MODULE_VERSION/modulefiles:/opt/sam/modulefiles:/opt/modulefiles:'
+++ export MODULEPATH
+++ MODULESHOME=/opt/sam/Modules/3.2.6
+++ export MODULESHOME
+++ NLSPATH=/opt/sam/intel/composer_xe_2013.0.079/mkl/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/debugger/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/ipp/lib/intel64/locale/%l_%t/%N:/opt/sam/intel/composer_xe_2013.0.079/compiler/lib/intel64/locale/%l_%t/%N
+++ export NLSPATH
+++ PATH=/home/dlambrecht/erb74/opt/apps/dalton/2015-i2013.0-mkl-omp/dalton:/opt/sam/intel/composer_xe_2013.0.079/debugger/gui/intel64:/opt/sam/intel/composer_xe_2013.0.079/bin/intel64:/opt/sam/sys/bin:/opt/sam/Modules/3.2.6/bin:/home/dlambrecht/erb74/scripts/frank:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/.local/bin:/home/dlambrecht/erb74/opt/bin:/home/dlambrecht/erb74/buildscripts:/home/dlambrecht/erb74/scripts:/home/dlambrecht/erb74/development/orcaparse:/home/dlambrecht/erb74/repositories/rmsd:/bin:/usr/bin:/opt/sam/slash2/build/bin:/opt/sam/slash2/build/sbin
+++ export PATH
+++ SAMWRAP_CC=icc
+++ export SAMWRAP_CC
+++ SAMWRAP_CXX=icpc
+++ export SAMWRAP_CXX
+++ SAMWRAP_FC=ifort
+++ export SAMWRAP_FC
+++ SAMWRAP_FC_FLAGS='-reentrancy threaded'
+++ export SAMWRAP_FC_FLAGS
+++ SAMWRAP_FC_LDFLAGS='-reentrancy threaded'
+++ export SAMWRAP_FC_LDFLAGS
+++ TBBROOT=/opt/sam/intel/composer_xe_2013.0.079/tbb
+++ export TBBROOT
+++ _LMFILES_=/opt/sam/Modules/3.2.6/modulefiles/modules:/opt/sam/modulefiles/sys:/opt/sam/modulefiles/intel/2013.0:/home/dlambrecht/software/modules/dalton/2015-i2013.0-mkl-omp
+++ export _LMFILES_
++ cp /home/dlambrecht/erb74/development/qmspeedtest/berquist/frank_shared/dalton/2015.0/hf/hf.dal /scratch/3126521.clusman0a.frank.sam.pitt.edu
++ cd /scratch/3126521.clusman0a.frank.sam.pitt.edu
++ trap run_on_exit EXIT
+++ which dalton
++ /home/dlambrecht/erb74/opt/apps/dalton/2015-i2013.0-mkl-omp/dalton/dalton -omp 1 hf.dal
+
+   ***************************************** 
+   **** OUTPUT FROM DALTON SHELL SCRIPT **** 
+   ***************************************** 
+
+   DALTON release 2015.0
+
+   Invocation: /home/dlambrecht/erb74/opt/apps/dalton/2015-i2013.0-mkl-omp/dalton/dalton -omp 1 hf.dal
+
+   Sun Sep 20 20:05:50 EDT 2015
+
+   Calculation: hf  (input file: hf.dal)
+   PID        : 19486
+   Input dir  : /scratch/3126521.clusman0a.frank.sam.pitt.edu
+   Scratch dir: /scratch/3126521.clusman0a.frank.sam.pitt.edu/DALTON_scratch_erb74/hf_19486
+
+/scratch/3126521.clusman0a.frank.sam.pitt.edu/.mol does not exist or is not readable
+ => assuming user has written MOLECULE input in dalton input file
+
+ DALTON: default work memory size used.            64000000
+
+ Work memory size (LMWORK+2):    64000002 =  488.28 megabytes; node   0
+
+   0: Directories for basis set searches:
+     /scratch/3126521.clusman0a.frank.sam.pitt.edu:/home/dlambrecht/erb74/opt/apps/dalton/2015-i2013.0-mkl-omp/dalton/basis
+hf.tar.gz has been copied to /scratch/3126521.clusman0a.frank.sam.pitt.edu
+
+   Sun Sep 20 21:04:44 EDT 2015
+   ***************************************** 
++ run_on_exit
++ set -v
++ cp -R '/scratch/3126521.clusman0a.frank.sam.pitt.edu/dalton/DALTON_scratch_erb74/*' /home/dlambrecht/erb74/development/qmspeedtest/berquist/frank_shared/dalton/2015.0/hf
+cp: cannot stat `/scratch/3126521.clusman0a.frank.sam.pitt.edu/dalton/DALTON_scratch_erb74/*': No such file or directory
+trying to remove /scratch/3126521.clusman0a.frank.sam.pitt.edu
++---------------------------------------------------------------------+
+|                        JOB INFORMATION                              |
++---------------------------------------------------------------------+
+|
+|  Date      : Sun Sep 20 21:04:44 EDT 2015
+|  Job ID    : 3126521.clusman0a.frank.sam.pitt.edu
+|  Username  : erb74
+|  Group     : dlambrecht
+|  Job Name  : dalton_hf
+|  Session   : 18879
+|  Limits    : neednodes=1:ppn=48,nodes=1:ppn=48,pmem=2666mb,walltime=24:00:00
+|  Resources : cput=01:25:43,energy_used=0,mem=214164kb,vmem=4159380kb,walltime=00:58:56
+|  Disk      : 1.1M
+|  Queue     : ishared
+|  Account   : 
+|  Exit code : 0
+|  Local scr : /scratch/3126521.clusman0a.frank.sam.pitt.edu
+|  Node/cores: 52/48 
+|
+[---------------------------------------------------------------------]
