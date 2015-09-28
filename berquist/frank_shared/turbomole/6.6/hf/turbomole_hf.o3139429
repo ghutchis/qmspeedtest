@@ -1,0 +1,21 @@
+trying to remove /scratch/3139429.clusman0a.frank.sam.pitt.edu
++---------------------------------------------------------------------+
+|                        JOB INFORMATION                              |
++---------------------------------------------------------------------+
+|
+|  Date      : Mon Sep 28 15:13:39 EDT 2015
+|  Job ID    : 3139429.clusman0a.frank.sam.pitt.edu
+|  Username  : erb74
+|  Group     : dlambrecht
+|  Job Name  : turbomole_hf
+|  Session   : 74350
+|  Limits    : neednodes=1:ppn=48,nodes=1:ppn=48,pmem=2666mb,walltime=04:00:00
+|  Resources : cput=00:14:30,energy_used=0,mem=26612kb,vmem=111508kb,walltime=00:14:44
+|  Disk      : 544K
+|  Queue     : ishared
+|  Account   : 
+|  Exit code : 0
+|  Local scr : /scratch/3139429.clusman0a.frank.sam.pitt.edu
+|  Node/cores: 48/48 
+|
+[---------------------------------------------------------------------]

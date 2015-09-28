@@ -112,13 +112,13 @@ Eric Berquist's results
 <td>0.074</td>
 </tr>
 <tr>
-<td>TURBOMOLE</td><td>7.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>TURBOMOLE</td><td>6.6</td>
+<td>14.73</td>
+<td>20</td>
+<td>0.74</td>
+<td>-644.67570607014</td>
+<td>-0.35367</td>
+<td>0.07431</td>
 </tr>
 </table>
 
@@ -215,13 +215,13 @@ Eric Berquist's results
 <td>-0.064</td>
 </tr>
 <tr>
-<td>TURBOMOLE</td><td>7.0</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>TURBOMOLE</td><td>6.6</td>
+<td>15.50</td>
+<td>23</td>
+<td>0.67</td>
+<td>-648.49565883340</td>
+<td>-0.26099</td>
+<td>-0.06464</td>
 </tr>
 </table>
 

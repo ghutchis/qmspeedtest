@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+#PBS -N turbomole_b3lyp
+#PBS -q shared
+#PBS -l nodes=1:ppn=48
+#PBS -l walltime=04:00:00
+#PBS -j oe
+
+module purge
+module load turbomole/6.6-serial
+
+cp "${PBS_O_WORKDIR}"/* "${LOCAL}"
+cd "${LOCAL}"
+
+run_on_exit() {
+    set -v
+    cp "${LOCAL}"/* "${PBS_O_WORKDIR}"
+}
+
+trap run_on_exit EXIT
+
+jobex -c 500 >& "${PBS_O_WORKDIR}"/turbomole_b3lyp.out

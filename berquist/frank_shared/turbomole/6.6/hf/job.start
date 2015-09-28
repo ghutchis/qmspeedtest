@@ -1,0 +1,13 @@
+
+Mon Sep 28 14:58:58 EDT 2015
+jobex WAS CALLED AS: jobex -c 500
+AN OPTIMIZATION WITH MAX. 500 CYCLES WILL BE PERFORMED
+CONVERGENCY CRITERION FOR TOTAL SCF-ENERGY IS 10**(-6)
+CONVERGENCY CRITERION FOR MAXIMUM NORM OF SCF-ENERGY GRADIENT IS 10**(-3)
+CONVERGENCY CRITERION FOR MAXIMUM NORM OF BASIS SET GRADIENT IS 10**(-3)
+PROCEDURE WILL START WITH A dscf like STEP
+LOAD MODULES WILL BE TAKEN FROM DIRECTORY /opt/sam/turbomole/6.6/bin/x86_64-unknown-linux-gnu
+DSCF  = /opt/sam/turbomole/6.6/bin/x86_64-unknown-linux-gnu/dscf
+GRAD  = /opt/sam/turbomole/6.6/bin/x86_64-unknown-linux-gnu/grad
+STATPT = /opt/sam/turbomole/6.6/bin/x86_64-unknown-linux-gnu/statpt
+
