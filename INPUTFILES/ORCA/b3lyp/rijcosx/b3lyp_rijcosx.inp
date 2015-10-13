@@ -1,0 +1,3 @@
+! rks b3lyp/g 6-31g opt rijcosx
+
+* xyzfile 0 1 atoms.xyz *
